@@ -1,0 +1,394 @@
+Titre;Colonne 1;Colonne 2;Colonne 3
+Nom;Poste;Équipe;Manager
+Emma Wilson;Co-CEO;Editorial & Marketing;-
+Robert Chen;Co-CEO;Operations;-
+Daniel Martinez;Brand & Creative Vice President;Brand & Creative;Emma Wilson
+David Kim;CEO CZ/SK;Czech Republic;Robert Chen
+Sarah Johnson;Head of Editorial;Editorial;Emma Wilson
+Michael Thompson;Head of Growth Marketing;Growth Marketing;Emma Wilson
+James Davis;UK & US Marketing Director;Marketing UK;Emma Wilson
+Sophia Lee;Head of Media Expansion;Media Expansion US;Emma Wilson
+Olivia Taylor;Executive Assistant;Operations;Robert Chen
+Natalie Garcia;Chief People Officer;People;Robert Chen
+Peter Wright;Chief Revenue Officer;Revenue - France;Robert Chen
+Alexander Brown;Chief of Staff;Strategy Operations;Robert Chen
+Morgan Green;Head of Strategy & Operations;Strategy Operations;Alexander Brown
+Christine Evans;Senior Product Education Specialist;Product & Data;Benjamin Scott
+Timothy Foster;Customer Success Manager;Customer Success;Daniel King
+Christopher Miller;Chief Financial Officer;Finance;Robert Chen
+Benjamin Scott;Chief Technology and Product Officer;Product & Data;Robert Chen
+Samuel Foster;Head of Product Marketing;Product Marketing;Benjamin Scott
+Benjamin Wilson;Engineering Director;Product UK;Benjamin Scott
+Gregory Roberts;Senior Account Executive;Sales US;Peter Wright
+Kevin Lee;CTO - Chief Technical Officer;Tech;Benjamin Scott
+Claire Evans;UK Country Manager;UK - Team;Robert Chen
+Noah Parker;CEO dotConferences;dotConferences;Robert Chen
+Thomas Wang;Team Lead Sponsorship & B2C;B2C & Monitezation Marketing;Emma Wilson
+Laura White;Special Projects Director;Brand & Creative;Daniel Martinez
+Nathan Foster;Content Strategist Contractor;Brand & Creative;Daniel Martinez
+Catherine Black;Brand & Comms Team Lead;Brand Management;Daniel Martinez
+Mark Jackson;Brand Designer;Creative Conception;Daniel Martinez
+Paul Harris;Senior Copywriter;Creative Conception;Daniel Martinez
+Yasmin Green;Senior Brand Designer;Creative Conception;Daniel Martinez
+Melissa Liu;Team Lead Community Management;Social Media;Daniel Martinez
+Marcus Brooks;Team Lead Video Producer;Video Production;Daniel Martinez
+Ashley Cooper;Account Manager;Business - CZ;David Kim
+Jennifer Davis;Business Development Manager;Business - CZ;David Kim
+Lucas King;Business Development Manager;Business - CZ;David Kim
+Alexis Vasquez;Production & Delivery Manager;Content - CZ;David Kim
+Marcus Harris;Content Maker;Content - CZ;David Kim
+Rachel Martinez;Video Content Production Specialist;Czech Republic;David Kim
+Matthew Davis;Marketing and PR Manager;Marketing - CZ;David Kim
+Tiffany Hughes;People Ops & facilities coordinator;People & Office Management - CZ;David Kim
+Anthony Phillips;Team Lead Editorial Decision Maker;Decision Makers;Sarah Johnson
+Kevin Hughes;Lead Editor;Editorial CZ;Sarah Johnson
+Elizabeth Ford;Team Lead Job Hunters;Job Hunters;Sarah Johnson
+Stephen Roberts;Head of Marketing US;Marketing US;James Davis
+Amanda Wilson;Senior Marketing Manager;Marketing UK;James Davis
+Caroline Thomas;Senior B2B Marketing Manager;Marketing UK;James Davis
+Joshua Brown;Marketing Manager;Marketing UK;James Davis
+Emily Nelson;Social Media Manager UK Contractor;Marketing UK;James Davis
+Katherine Chen;US Editor Associate;Media Expansion US;Sophia Lee
+Kevin Smith;B2B US Senior Editor;Media Expansion US;Sophia Lee
+Kelly Cooper;B2C US Senior Editor;Media Expansion US;Sophia Lee
+John Smith;Head of IT & Security;Corporate IT;Robert Chen
+Ashley Lee;Employee Experience Team Lead;Employee Experience;Natalie Garcia
+Isabella Davis;Head of Legal;Legal;Natalie Garcia
+Madison Brown;Senior People Program Manager Contractor;People;Natalie Garcia
+William Green;Talent Development Team Lead;People Development;Natalie Garcia
+Matthew Foster;People Operations Team Lead;People Operations;Natalie Garcia
+Madison Parker;Head of Talent Acquisition;Talent Acquisition;Natalie Garcia
+Matthew Miller;Account Management Director;Account Management Teams;Peter Wright
+Daniel King;VP Account Management & Customer Success SMB;Customer Management;Peter Wright
+Logan Parker;Director Sales Enterprise & Agency;Revenue - France;Peter Wright
+Matthew Foster;Head of Revenue Operations;Revenue Operations Team;Peter Wright
+Nicholas Foster;Head of Sales Contractor;Sales Teams France;Peter Wright
+Adam Stevens;Senior Operations and Strategy Manager;Strategy Operations;Morgan Green
+Andrea Baker;Strategy & Operations Manager;Strategy Operations;Morgan Green
+Christina Miller;Lead Strategic Operations Manager;Strategy Operations;Morgan Green
+Ethan Davis;Lead Strategy Manager;Strategy Operations;Morgan Green
+Logan Parker;Operations and Strategy Manager;Strategy Operations;Morgan Green
+Maya Brown;Strategic Projects Manager;Strategy Operations;Morgan Green
+Dylan Baker;Media Operations Analyst Apprentice;Strategy Operations;Morgan Green
+Charlotte Parker;A/R Team Lead;Finance;Christopher Miller
+Cameron Black;Team lead Finance Business Partner;Finance;Christopher Miller
+Madison Davis;Senior Corporate Financial Planning & Analysis;Finance;Christopher Miller
+Sophia Young;Lead General Accounting & A/P;Finance;Christopher Miller
+Yasmin Adams;Head of general accountant Contractor;Finance;Christopher Miller
+Samuel Clark;Head of Finance;Finance UK;Christopher Miller
+Amanda Carter;Billing Apprentice;Finance;Charlotte Parker
+Ashley Foster;Senior A/R Administrator;Finance;Charlotte Parker
+Madison Adams;Senior A/R Administrator;Finance;Charlotte Parker
+Benjamin Lee;Associate Finance Business Partner;Finance;Cameron Black
+Daniel Brown;Finance Business Partner;Finance;Cameron Black
+Samuel Cooper;Finance Business Partner;Finance;Cameron Black
+Frederick King;General Accountant;Finance;Sophia Young
+Oliver Lewis;Accounting Apprentice;Finance;Sophia Young
+Matthew Baker;Finance Manager;Finance UK;Samuel Clark
+Charles Parker;Head of SRE;SRE;Kevin Lee
+Ethan Brown;Team Lead Data & Analytics Engineering;Data;Benjamin Scott
+Jack Foster;Team Lead Data Analyst;Data;Benjamin Scott
+Frank Davis;Engineering Director;Engineering;Kevin Lee
+Kyle Lewis;Principal Engineer;Engineering;Frank Davis
+Samuel Robinson;Staff Engineering Manager;Engineering;Frank Davis
+Thomas Roberts;Front end developer - Freelance;Engineering;Frank Davis
+Victoria Lee;Head of Design;Product Design;Benjamin Scott
+Andrew Green;Staff QA Engineer;QA Engineering;Benjamin Scott
+Grace Ford;VP Product Management;Product Management;Benjamin Scott
+Adam Brown;Senior Site Reliability Engineer;SRE;Charles Parker
+Marcus Davis;Senior Yaml Engineer;SRE;Charles Parker
+Patrick Nelson;Senior Devops Engineer;SRE;Charles Parker
+Benjamin Lee;Senior Data Engineer - Freelance;Data;Ethan Brown
+Katherine Smith;Senior Data Engineer;Data;Ethan Brown
+Kevin Black;Senior Data Engineer;Data;Ethan Brown
+Thomas Cooper;Senior Analytics Engineer;Data;Ethan Brown
+Zachary Martinez;Data Analytics Engineer Intern;Data;Ethan Brown
+Ashley Lee;Senior Data Analyst;Data;Jack Foster
+Amanda King;Senior Data Analyst;Data;Jack Foster
+Alexandra Cooper;Senior Data Analyst Contractor;Data;Jack Foster
+Morgan Robinson;Associate Data Analyst;Data;Jack Foster
+Natalie King;Data Analyst;Data;Jack Foster
+Benjamin Clark;Engineering Manager;Engineering;Frank Davis
+Cameron Green;Engineering Manager;Engineering;Frank Davis
+David Johnson;Someone;Engineering;Frank Davis
+Gregory Parker;Senior Back-End Developer;Engineering;Frank Davis
+Jacob Reed;Front-end Developer;Engineering;Frank Davis
+Matthew Parker;Engineering Manager Contractor;Engineering;Frank Davis
+Oliver Davis;Senior Back-end Developper;Engineering;Frank Davis
+Patrick Cooper;Senior Front-end Developer;Engineering;Frank Davis
+Philip Harris;Senior Engineering Manager;Engineering;Frank Davis
+Samuel Cooper;Full-Stack Developer;Engineering;Frank Davis
+Anthony Johnson;Senior QA Engineer;QA Engineering;Andrew Green
+Felicity Parker;Senior QA Engineer;QA Engineering;Andrew Green
+Gregory Roberts;Staff Engineer;Engineering;Samuel Robinson
+Sarah Adams;Staff Engineer;Engineering;Samuel Robinson
+Yasmin Vasquez;Staff Engineer;Engineering;Samuel Robinson
+Adam Brown;Product Writer and Localization Specialist;Product Design;Victoria Lee
+Amanda Martinez;Product Designer Contractor;Product Design;Victoria Lee
+Jennifer Miller;Senior Product Designer;Product Design;Victoria Lee
+Jessica Smith;Senior Product Designer;Product Design;Victoria Lee
+Lauren Smith;Product Designer UK;Product Design;Victoria Lee
+Lily Anderson;Senior Product Designer;Product Design;Victoria Lee
+Patricia Adams;Senior Product Designer;Product Design;Victoria Lee
+Sophia Green;Team Lead Product Design;Product Design;Victoria Lee
+Jessica Brown;UX Writing & Translation Apprentice;Product Design;Sophia Green
+Ashley Adams;Senior Product Designer;Product Design;Sophia Green
+Charlotte Parker;Senior Product Designer;Product Design;Sophia Green
+Marcus Parker;Product Manager Contractor;Product & Data;Grace Ford
+Cameron Brown;Product Manager;Product Management;Grace Ford
+Cameron Black;Senior Product Manager;Product Management;Grace Ford
+Ethan Roberts;Senior Product Manager;Product Management;Grace Ford
+Jason White;Senior Product Manager;Product Management;Grace Ford
+Jennifer Smith;Product Architect;Product Management;Grace Ford
+Thomas Cooper;Senior Product Manager;Product Management;Grace Ford
+Emily Adams;B2B Marketing Team Lead;B2B Marketing;Samuel Foster
+Ashley Roberts;Product Marketing Manager;Product Marketing;Samuel Foster
+Cameron Clark;Senior Product Marketing Manager;Product Marketing;Samuel Foster
+Cameron Brown;Product Marketing Manager;Product Marketing;Samuel Foster
+Jennifer Parker;Senior Product Marketing Manager International;Product Marketing;Samuel Foster
+Madison Stevens;Strategic Partnerships Lead;Product Marketing;Samuel Foster
+Rachel Adams;Team Lead Product Marketing;Product Marketing;Samuel Foster
+Christopher Quinn;Senior Back-end Developer;Engineering;Benjamin Clark
+Ethan Roberts;Software Engineer;Engineering;Benjamin Clark
+Frederick Reed;Senior Front-end Developer;Engineering;Benjamin Clark
+Isaac Green;Engineering Manager;Engineering;Benjamin Clark
+Benjamin Wilson;Back-end Developer;Engineering;Cameron Green
+Daniel Green;Associate Front-end Developer;Engineering;Cameron Green
+Gabriel Baker;Back-end Developer;Engineering;Cameron Green
+Isabella Martinez;Associate Front-end Developer;Engineering;Cameron Green
+Michael Roberts;Engineering Manager;Engineering;Matthew Parker
+Victoria Green;Engineering Manager;Engineering;Matthew Parker
+Thomas Vasquez;Tech Lead;Product UK;Isaac Green
+Daniel Parker;Data Scientist;Data;Jack Foster
+Thomas Miller;Senior Data Scientist;Data;Jack Foster
+Alexander Smith;Head of Operations;Commercial;Claire Evans
+Benjamin Roberts;Executive Assistant;Commercial;Alexander Smith
+Emma Brown;Customer Experience Lead;Operations UK;Alexander Smith
+Alexander Smith;Operations Analyst;Operations UK;Emma Brown
+Thomas Parker;Operations Manager;Operations UK;Emma Brown
+William Davis;Senior Operations Analyst;Operations UK;Emma Brown
+Hannah Miller;Customer Care Representative;Operations UK;Emma Brown
+Patrick Brown;Customer Experience Manager;Operations UK;Emma Brown
+Catherine Green;People Partner;People UK;Madison Parker
+Jennifer Green;Commercial Director UK;UK - Team;Claire Evans
+Daniel Green;Account Executive;Commercial;Jennifer Green
+Emma Adams;Senior Renewals Manager;Commercial;Jennifer Green
+Emma Wilson;Account Executive;Commercial;Jennifer Green
+Lauren Black;Customer Success Lead;Commercial;Jennifer Green
+Patrick Brown;Sales Team Lead;Commercial;Jennifer Green
+Thomas Miller;Account Executive;Commercial;Patrick Brown
+Jessica Brown;Account Executive;Commercial;Patrick Brown
+Nicholas Oliver;Senior Sales Executive;Commercial;Patrick Brown
+Timothy Smith;Revenue Operations Manager;Commercial;Jennifer Green
+Yasmin King;Revenue Operations Manager;Commercial;Jennifer Green
+Yasmin Smith;Senior Revenue Operations Analyst;Commercial;Jennifer Green
+Hannah Miller;Customer Success Manager;Commercial;Lauren Black
+Nathan Brown;Customer Success Manager;Commercial;Lauren Black
+Samuel Brown;Senior Customer Success Manager;Commercial;Lauren Black
+Samuel Smith;Customer Success Manager;Commercial;Lauren Black
+Samuel Miller;Customer Success Manager;Commercial;Lauren Black
+Matthew Smith;BDR Team Lead;UK - Team;Jennifer Green
+Ashley Nelson;Sales Manager;dotConferences;Noah Parker
+Ashley Nelson;Head of Event and Attendee Experience;dotConferences;Noah Parker
+William Cooper;Senior Sponsorship & B2C Manager;B2C & Monitezation Marketing;Thomas Wang
+Julia Rodriguez;Content & Project Manager Contractor;Editorial & Marketing;Emma Wilson
+Sophia Adams;Senior Paid Traffic Manager;Growth Marketing;Michael Thompson
+Margaret Rodriguez;Lead Growth Manager;Growth Marketing;Michael Thompson
+Jessica Baker;Brand Manager Apprentice;Brand Management;Catherine Black
+Matthew Peterson;Brand Manager;Brand Management;Catherine Black
+Maria Bennett;Graphic Designer Intern;Creative Conception;Yasmin Green
+Alice Turner;Community Manager US;Social Media;Melissa Liu
+Jonathan Jones;Social Ads Manager;Social Media;Melissa Liu
+Megan Gray;Community Manager Associate;Social Media;Melissa Liu
+Marcus Bell;Social Media Intern;Social Media;Melissa Liu
+Andrew Ross;Production Coordinator;Video Production;Marcus Brooks
+Christopher Taylor;Video Editor (Media);Video Production;Marcus Brooks
+Jennifer Davis;Lead Filmmaker;Video Production;Marcus Brooks
+Lucas Reed;Video Editor (Media);Video Production;Marcus Brooks
+Samuel Robinson;Filmmaker;Video Production;Marcus Brooks
+Timothy Baker;Filmmaker;Video Production;Marcus Brooks
+Tyler Davis;Senior Photographer;Video Production;Marcus Brooks
+Brandon Brown;Senior Motion Designer;Video Production;Marcus Brooks
+Felicity Brown;Junior Marketing Specialist;Marketing - CZ;Matthew Davis
+Madison Davis;Lead Editor Lab;Decision Makers;Anthony Phillips
+Tyler Lewis;Senior Video Journalist;Decision Makers;Anthony Phillips
+Alexandra Cooper;France Editor;Job Hunters;Elizabeth Ford
+Grace Parker;Lead Journalist;Job Hunters;Elizabeth Ford
+Lauren Clark;Video Journalist;Job Hunters;Elizabeth Ford
+Maria Anderson;France Editor;Job Hunters;Elizabeth Ford
+Samuel Carter;Lead Video Journalist;Job Hunters;Elizabeth Ford
+Gabriel Baker;SEO Contractor;Job Hunters;Elizabeth Ford
+Christopher Foster;Business Technology Manager;Business Technology;John Smith
+Caroline Green;Senior CRM Manager;Business Technology;Christopher Foster
+Gregory Nelson;Associate Automation Engineer;Business Technology;Christopher Foster
+Jacob Reed;Senior Automation Engineer;Business Technology;Christopher Foster
+Gabriel Brown;CRM Intern;Business Technology;Caroline Green
+Ashley Roberts;Senior IT Engineer;Corporate IT;John Smith
+Daniel Brown;UK IT Engineer;Corporate IT;John Smith
+Patrick Smith;IT Manager;Corporate IT;John Smith
+Adam Brown;IT Technician Apprentice;Corporate IT;Patrick Smith
+Ashley Lewis;Office;Workplace Management;Ashley Lee
+Jacob Reed;Receptionist;Workplace Management;Ashley Lee
+Katherine Evans;Office Manager Contractor;Workplace Management;Ashley Lee
+Katherine Lee;Workplace Experience Manager Contractor;Workplace Management;Ashley Lee
+Samuel Johnson;Office Manager;Employee Experience;Ashley Lee
+Lauren Miller;DPO & Senior Legal Counsel;Legal;Isabella Davis
+Matthew Brown;Senior Legal Counsel;Legal;Isabella Davis
+Felicity Davis;People Partner;People Development;William Green
+Felicity Miller;Senior People Partner;People Development;William Green
+Madison Cooper;Senior Learning & Development Specialist;People Development;William Green
+Emma Davis;People Operations Manager;People Operations;Matthew Foster
+Emma Johnson;People Operations Analyst;People Operations;Matthew Foster
+Ashley Green;Payroll & Admin Specialist;People Operations;Matthew Foster
+Rachel Adams;Talent Acquisition Manager Contractor;People UK;Madison Parker
+Emma Lee;Talent Acquisition Manager Contractor;Talent Acquisition;Madison Parker
+Frederick King;Talent Acquisition Manager;Talent Acquisition;Madison Parker
+Lauren Miller;Talent Acquisition Manager;Talent Acquisition;Madison Parker
+Ashley Smith;Talent Acquisition Intern;Talent Acquisition;Madison Parker
+Lauren Parker;Team Lead Account Management;AM Growth Team (B);Matthew Miller
+Madison Parker;Team Lead Account Management;AM Growth Team (C);Matthew Miller
+Patrick Parker;Team Lead AM Mid Contractor;AM Mid Market Team;Matthew Miller
+Lauren Miller;Senior Account Manager;AM Growth Team (B);Lauren Parker
+Matthew Evans;Account Manager (Growth);AM Growth Team (B);Lauren Parker
+Sophia Green;Senior Account Manager;AM Growth Team (B);Lauren Parker
+Lauren Brown;Account Manager;AM Growth Team (C);Madison Parker
+Matthew Oliver;Senior Account Manager (Growth);AM Growth Team (C);Madison Parker
+Ashley Cooper;Senior Customer Retention Manager;AM Mid Market Team;Patrick Parker
+Christopher Lee;Account Manager;AM Mid Market Team;Patrick Parker
+Madison Stevens;Senior Account Manager;AM Mid Market Team;Patrick Parker
+Madison Davis;Customer Retention Manager Contractor;AM Mid Market Team;Patrick Parker
+Timothy Baker;Account Manager (Mid Market);AM Mid Market Team;Patrick Parker
+Madison Anderson;Team Lead AE SMB Contractor;Sales Seed Team - FR;Patrick Parker
+Alexander Harris;Account Manager;AM Seeds/Growth (A) Team;Madison Anderson
+Isabella Reed;Senior Account Manager;AM Seeds/Growth (A) Team;Madison Anderson
+Jennifer Lee;Account Manager (Growth);AM Seeds/Growth (A) Team;Madison Anderson
+Matthew Adams;Account Manager;Account Management Teams;Matthew Miller
+Caroline Davis;Account Manager (Mid);Account Management Teams;Matthew Miller
+Cameron Davis;Account Manager;Account Management Teams;Matthew Miller
+Cameron Black;Team Lead Customer Care;Customer Care;Daniel King
+Ashley Adams;Senior Customer Care Specialist;Customer Care;Cameron Black
+Madison Thompson;Customer Care Specialist;Customer Care;Cameron Black
+Victoria Foster;Customer Care Specialist;Customer Care;Cameron Black
+Felicity Parker;Team Lead Customer Success;Customer Success;Daniel King
+Lauren Miller;Team Lead Customer Success;Customer Success;Daniel King
+Ashley Vasquez;Customer Retention Manager;Customer Success;Felicity Parker
+Ashley Lee;Customer Success Manager (Prime);Customer Success;Felicity Parker
+Charlotte Parker;Customer Success Manager;Customer Success;Felicity Parker
+Emma Brown;Senior Customer Success Manager (Prime);Customer Success;Felicity Parker
+Grace Davis;Senior Customer Success Manager (Prime);Customer Success;Felicity Parker
+Hannah Davis;Senior Customer Success Manager (Prime);Customer Success;Felicity Parker
+Jennifer Smith;Senior Customer Success Manager (Prime);Customer Success;Felicity Parker
+Jessica Brown;Customer Success Manager (Prime);Customer Success;Felicity Parker
+Matthew Davis;Senior Customer Success Manager (Prime);Customer Success;Felicity Parker
+Ashley Lee;Customer Success Manager (Advanced);Customer Success;Lauren Miller
+Cameron Brown;Customer Success Manager (Advanced);Customer Success;Lauren Miller
+Cameron Reed;Customer Success Manager (Advanced);Customer Success;Lauren Miller
+Jennifer Cooper;Customer Success Manager (Advanced);Customer Success;Lauren Miller
+Thomas Parker;Customer Success Manager (Essential);Customer Success;Lauren Miller
+Alexander Smith;Head of Onboarding and Production;Onboarding & Production;Daniel King
+Sarah Lee;Production Experience Director;Production Experience;Alexander Smith
+Lauren Davis;Production Team Lead;Production Experience;Sarah Lee
+Quinn Green;Production Operations Team Lead;Production Experience;Sarah Lee
+Adam Martinez;Talent & Production Administrator Contractor;Production Experience;Sarah Lee
+Ashley Davis;Senior Video Project Editor;Production Experience;Sarah Lee
+Hannah Miller;Video Editor;Production Experience;Sarah Lee
+Lauren Clark;Senior Video Editor;Production Experience;Sarah Lee
+Lauren Johnson;Photo Production Specialist;Production Experience;Sarah Lee
+Nathan Miller;Video Editor;Production Experience;Sarah Lee
+Richard Davis;Video Editor Apprentice;Production Experience;Sarah Lee
+Madison Lee;Photo Editor Contractor;Production Experience;Sarah Lee
+Lauren Reed;Senior Producer;Production Experience;Lauren Davis
+Madison Thompson;Associate Producer;Production Experience;Lauren Davis
+Madison Harris;Talent & Production Administrator Contractor;Production Experience;Lauren Davis
+Samuel Smith;Producer;Production Experience;Lauren Davis
+Lauren Parker;Associate Producer;Operations;Lauren Davis
+Ashley Nelson;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Cameron Green;Customer Onboarding Intern;Onboarding Experience;Alexander Smith
+Emma Foster;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Emma Davis;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Isabella King;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Jennifer Nelson;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Madison Green;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Madison Harris;Senior Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Rachel Brown;Customer Onboarding Manager;Onboarding Experience;Alexander Smith
+Gregory Thomas;Technical Support Manager;Technical Support;Daniel King
+Jason White;Technical Support Engineer;Technical Support;Gregory Thomas
+Matthew Brown;Technical Support Engineer;Technical Support;Gregory Thomas
+Catherine Green;Team leader KAM;AM Enterprise Team;Logan Parker
+Madison Black;Senior Key Account Manager;AM Enterprise Team;Catherine Green
+Madison Brown;Senior Strategic Account Manager;AM Enterprise Team;Catherine Green
+Madison Nelson;Key Account Manager;AM Enterprise Team;Catherine Green
+Madison Lewis;Senior Strategic Account Manager;AM Enterprise Team;Catherine Green
+Nathan Miller;Senior Key Account Manager;AM Enterprise Team;Catherine Green
+Yasmin Cooper;Key Account Manager;AM Enterprise Team;Catherine Green
+Catherine Green;Customer Success Manager Key Accounts;Customer Management;Daniel King
+Jennifer Jones;Customer Success Manager Key Accounts;Customer Management;Daniel King
+Ryan Williams;Agencies & Partnerships Manager;Indirect Sales;Robert Chen
+Chloe Adams;Agencies & Partnership Manager;Indirect Sales;Robert Chen
+Michelle Lewis;Agencies & Partnerships Manager;Indirect Sales;Robert Chen
+Benjamin Roberts;Head of Enterprise & Agencies Contractor;Sales Enterprise Team - FR;Logan Parker
+Madison Martinez;Sales Team Manager Enterprise;Sales Enterprise Team - FR;Benjamin Roberts
+Lauren Davis;Sales Account Executive (Enterprise);Sales Enterprise Team - FR;Madison Martinez
+Nathan Lewis;Senior Sales Account Executive (Enterprise);Sales Enterprise Team - FR;Madison Martinez
+Patrick Lewis;Senior Sales Account Executive;Sales Enterprise Team - FR;Madison Martinez
+Victoria Lewis;Senior Key Account Manager - Enterprise;Sales Teams France;Benjamin Roberts
+Richard Green;Key Account Manager;Revenue - France;Logan Parker
+Daniel Foster;Head of Business Operations;Business Excellence;Matthew Foster
+Lauren Black;Customer Experience Team Lead;Customer Experience;Matthew Foster
+Jennifer Vasquez;Lead Revenue Enablement;Enablement;Matthew Foster
+Daniel Brown;CRM Manager Contractor;Process & Tools;Matthew Foster
+Cameron Miller;New Revenue Streams Manager;Business Excellence;Daniel Foster
+Jennifer Cooper;RevOps Data Analyst;Business Excellence;Daniel Foster
+Thomas Johnson;Sales Operations Manager;Business Excellence;Daniel Foster
+Lauren Foster;Business Analyst Intern;Business Excellence;Thomas Johnson
+Cameron Brown;Revenue Operations Intern;Customer Experience;Lauren Black
+Madison Black;Senior Customer Success Manager;Customer Experience;Lauren Black
+Nathan Thompson;Senior Business Operations Manager;Customer Experience;Lauren Black
+Alexander Brown;Kano Contractor;Revenue Operations Team;Matthew Foster
+Jennifer Davis;Kano Contractor;Revenue Operations Team;Matthew Foster
+Jennifer Cooper;Sales Enablement Contractor;Revenue Operations Team;Matthew Foster
+Melissa Liu;SDR Team Manager;Revenue Operations Team;Matthew Foster
+Madison Green;Kano Contractor;Revenue Operations Team;Matthew Foster
+Samuel Brown;Kano Contractor;Revenue Operations Team;Matthew Foster
+Madison Brown;Sales Team Manager;Revenue - France;Nicholas Foster
+Samuel Cooper;Team Leader SDR;SDR Team - FR;Nicholas Foster
+Lauren Parker;Team Lead Sales Mid Market;Sales Mid Team - FR;Nicholas Foster
+Lauren Harris;Sales Team Manager;Sales Seed Team - FR;Nicholas Foster
+Alexander Parker;Senior Sales Development Representative;SDR Team - FR;Samuel Cooper
+Ashley King;Sales Development Representative;SDR Team - FR;Samuel Cooper
+Catherine Nelson;Sales Development Representative;SDR Team - FR;Samuel Cooper
+Cameron Miller;Sales Development Representative;SDR Team - FR;Samuel Cooper
+Hannah Johnson;Sales Development Representative Intern;SDR Team - FR;Samuel Cooper
+Lauren Green;Sales Development Representative;SDR Team - FR;Samuel Cooper
+Matthew Davis;Senior Business Development Representative;SDR Team - FR;Samuel Cooper
+Nathan Miller;Sales Development Representative Intern;SDR Team - FR;Samuel Cooper
+Patrick Davis;Sales Developement Representative;SDR Team - FR;Samuel Cooper
+Cameron Black;Senior Sales Account Executive;Sales Mid Team - FR;Lauren Parker
+Isabella Adams;Senior Sales Account Executive;Sales Mid Team - FR;Lauren Parker
+Madison Green;Sales Account Executive;Sales Mid Team - FR;Lauren Parker
+Madison Lewis;Sales Account Executive (Mid Market);Sales Mid Team - FR;Lauren Parker
+Gabriel Lewis;Sales Account Executive (Seeds);Sales Seed Team - FR;Lauren Harris
+Cameron Miller;Senior Sales Account Executive;Sales Growth Team - FR;Nicholas Foster
+Cameron Parker;Sales Account Executive;Sales Growth Team - FR;Nicholas Foster
+Madison Green;Senior Sales Account Executive;Sales Growth Team - FR;Nicholas Foster
+Samuel Vasquez;Sales Account Executive;Sales Growth Team - FR;Nicholas Foster
+Timothy Foster;Sales Account Executive;Sales Growth Team - FR;Nicholas Foster
+Ashley Cooper;Sales Account Executive (Growth);Sales Teams France;Nicholas Foster
+Jessica Lee;Customer Marketing Manager;B2B Marketing;Emily Adams
+Lauren Harris;Lifecycle Marketing Manager;B2B Marketing;Emily Adams
+Lauren Thompson;Inbound Marketing Manager;B2B Marketing;Emily Adams
+Charlotte Parker;Growth Marketing Contractor;B2B Marketing;Emily Adams
+Matthew Cooper;Web Writer & Integrator Contractor;Editorial & Marketing;Emma Wilson
+Brandon Thomas;Senior Full-Stack Developer;Engineering;Victoria Green
+Lauren Davis;Back-End Developer;Engineering;Victoria Green
+Oliver Cooper;Senior Front-end Developer;Engineering;Victoria Green
+Samuel Parker;Front-end Developer;Engineering;Victoria Green
+Benjamin Thomas;Backend Developer;Engineering;Michael Roberts
+Caroline Nelson;Front-end Senior Developer Contractor;Engineering;Michael Roberts
+Jessica Hughes;Front-end Developer;Engineering;Michael Roberts
+Rachel Thompson;Front-end Developer;Engineering;Michael Roberts
+James King;Back-end Developer;Engineering;Philip Harris
+Richard Davis;Senior Front-end Developer;Engineering;Philip Harris
+Thomas Miller;Senior Front-End Developper;Engineering;Philip Harris
+Zachary Foster;Associate Back-end Developer;Engineering;Philip Harris
+Samuel Davis;Senior Front-end Developer;Engineering;Philip Harris
