@@ -172,7 +172,12 @@ const GameMap = () => {
               <UserAvatar user={selectedMascot} size={64} presenceRate={selectedMascot.presenceRate} isJumping={false} />
               <div className="mt-2 text-lg font-bold">{selectedMascot.name}</div>
               <div className="text-sm text-gray-500">{selectedMascot.team ? selectedMascot.team : ''}</div>
-              {/* Ajoutez ici d'autres infos si besoin */}
+              <div className="mt-2">
+                <span className="font-medium">Mode de travail :</span>
+                <span className={`ml-2 ${selectedMascot.workMode === 'presentiel' ? 'text-green-600' : 'text-blue-600'}`}>
+                  {selectedMascot.workMode === 'presentiel' ? 'Présentiel' : 'Remote'}
+                </span>
+              </div>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface UserAvatarProps {
-  user: { id: string; name: string; avatar: string; presenceRate?: number };
+  user: { id: string; name: string; avatar: string; mascot: string; presenceRate?: number };
   size?: number;
   presenceRate?: number;
   isJumping?: boolean;
@@ -17,7 +17,7 @@ const animalImages: Record<string, string> = {
 };
 
 const UserAvatar: React.FC<UserAvatarProps> = ({ user, size = 48, presenceRate, isJumping }) => {
-  const imgSrc = animalImages[user.avatar] || '';
+  const imgSrc = animalImages[user.mascot] || animalImages[user.avatar] || '';
   const rate = presenceRate ?? user.presenceRate ?? 0;
   const isLevelUp = rate > 70;
   // Effet de saut : scaleY et translateY

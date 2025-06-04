@@ -1,0 +1,393 @@
+Nom,Équipe,Assigned,Localisation,mascotte,"Information personnelle, Hobbie",taux_presentiel,zone_mascotte,Télétravail,Poste,Manager
+Emma Wilson,Editorial & Marketing,TRUE,Paris,,"J'aime le judo, je fais de la danse et j'adore lire",,,Oui,Co-CEO,-
+Robert Chen,Operations,TRUE,Paris,,J'aime les festivals de musique l'art contemporain,,,Faux,Co-CEO,-
+Daniel Martinez,Brand & Creative,TRUE,Paris,,"J'aime la photographie, je fais du vélo et je suis passionné par la randonnée.",,,Oui,Brand & Creative Vice President,Emma Wilson
+David Kim,Czech Republic,TRUE,Paris,,"J'adore la musique électronique, je fais de la peinture et je suis un fan de littérature classique.",,,Faux,CEO CZ/SK,Robert Chen
+Sarah Johnson,Editorial,TRUE,Paris,,"J'aime la natation, je pratique la méditation et je suis un amateur de cinéma.",,,Oui,Head of Editorial,Emma Wilson
+Michael Thompson,Growth Marketing,TRUE,Paris,,"J'adore cuisiner, je fais du yoga et je suis curieux d'apprendre de nouvelles langues.",,,Faux,Head of Growth Marketing,Emma Wilson
+James Davis,Marketing UK,TRUE,Paris,,"J'aime le théâtre, je fais de la pâtisserie et j'adore voyager.",,,Faux,UK & US Marketing Director,Emma Wilson
+Sophia Lee,Media Expansion US,TRUE,Paris,,"J'aime la lecture de science-fiction, je fais de la course à pied et je m'intéresse à l'astronomie.",,,Faux,Head of Media Expansion,Emma Wilson
+Olivia Taylor,Operations,TRUE,Paris,,"J'adore les jeux vidéo, je fais de la guitare et je suis un passionné de séries télé.",,,Faux,Executive Assistant,Robert Chen
+Natalie Garcia,People,TRUE,Paris,,"J'aime le surf, je fais de l'escalade et j'adore les podcasts.",,,Faux,Chief People Officer,Robert Chen
+Peter Wright,Revenue - France,TRUE,Paris,,"J'adore le ski, je fais de l'aquarelle et je suis un passionné de jazz.",,,Faux,Chief Revenue Officer,Robert Chen
+Alexander Brown,Strategy Operations,TRUE,Paris,,"J'aime la randonnée, je fais de l'écriture créative et je m'intéresse à la permaculture.",,,Faux,Chief of Staff,Robert Chen
+Morgan Green,Strategy Operations,TRUE,Paris,,"J'adore les sports collectifs, je fais du théâtre d'improvisation et je suis fan de stand-up.",,,Faux,Head of Strategy & Operations,Alexander Brown
+Christine Evans,Product & Data,TRUE,Paris,,"J'aime la couture, je fais du jogging et je suis un passionné de voyage culinaire.",,,Faux,Senior Product Education Specialist,Benjamin Scott
+Timothy Foster,Customer Success,TRUE,Paris,,"J'adore l'astronomie, je fais du bénévolat et je suis curieux d'en apprendre plus sur l'histoire.",,,Faux,Customer Success Manager,Daniel King
+Christopher Miller,Finance,TRUE,Paris,,"J'aime la photographie argentique, je fais de la musique acoustique et je suis un passionné d'architecture.",,,Faux,Chief Financial Officer,Robert Chen
+Benjamin Scott,Product & Data,TRUE,Paris,,"J'adore les films d'animation, je fais du roller et je suis intéressé par la mode vintage.",,,Faux,Chief Technology and Product Officer,Robert Chen
+Samuel Foster,Product Marketing,TRUE,Paris,,"J'aime le jardinage, je fais du piano et je suis passionné de photographie.",,,Faux,Head of Product Marketing,Benjamin Scott
+Benjamin Wilson,Product UK,TRUE,Paris,,"J'adore la peinture, je fais du vélo de montagne et je suis curieux d'explorer la culture asiatique.",,,Faux,Engineering Director,Benjamin Scott
+Gregory Roberts,Sales US,TRUE,Paris,,"J'aime le skate, je fais du bricolage et j'adore les jeux de société.",,,Faux,Senior Account Executive,Peter Wright
+Kevin Lee,Tech,TRUE,Paris,,"J'adore la poésie, je fais de la randonnée et je suis passionné par la culture pop.",,,Faux,CTO - Chief Technical Officer,Benjamin Scott
+Claire Evans,UK - Team,TRUE,Paris,,"J'aime la sculpture, je fais du badminton et j'adore participer à des événements sociaux.",,,Faux,UK Country Manager,Robert Chen
+Noah Parker,dotConferences,TRUE,Paris,,"J'adore les vidéos YouTube, je fais de l'escrime et je suis un passionné de mode.",,,Faux,CEO dotConferences,Robert Chen
+Thomas Wang,B2C & Monitezation Marketing,TRUE,Paris,,"J'aime la pâtisserie, je fais du golf et je suis un amateur de jeux de cartes.",,,Faux,Team Lead Sponsorship & B2C,Emma Wilson
+Laura White,Brand & Creative,TRUE,Paris,,"J'adore l'escalade, je fais de la photographie de voyage et j'aime lire des romans historiques.",,,Faux,Special Projects Director,Daniel Martinez
+Nathan Foster,Brand & Creative,TRUE,Paris,,"J'aime la lecture de bande dessinée, je fais du tennis et je suis un passionné d'informatique.",,,Faux,Content Strategist Contractor,Daniel Martinez
+Catherine Black,Brand Management,TRUE,Paris,,"J'adore l'art urbain, je fais du kayak et je suis curieux d'en apprendre plus sur l'histoire des civilisations anciennes.",,,Faux,Brand & Comms Team Lead,Daniel Martinez
+Mark Jackson,Creative Conception,TRUE,Paris,,"J'aime la danse contemporaine, je fais du jardinage et je suis passionné par la nutrition.",,,Faux,Brand Designer,Daniel Martinez
+Paul Harris,Creative Conception,TRUE,Paris,,"J'adore la couture, je fais de la plongée sous-marine et j'aime écouter des podcasts éducatifs.",,,Faux,Senior Copywriter,Daniel Martinez
+Yasmin Green,Creative Conception,TRUE,Paris,,"J'aime l'archéologie, je fais du roller et j'adore cuisiner des plats végétariens.",,,Faux,Senior Brand Designer,Daniel Martinez
+Melissa Liu,Social Media,TRUE,Paris,,"J'adore les films d'horreur, je fais du paddle et je suis un passionné de photographie de paysage.",,,Faux,Team Lead Community Management,Daniel Martinez
+Marcus Brooks,Video Production,TRUE,Paris,,"J'aime le football, je fais de la lecture sur le développement personnel et j'adore cuisiner pour mes amis.",,,Faux,Team Lead Video Producer,Daniel Martinez
+Ashley Cooper,Business - CZ,TRUE,Paris,,"J'aime la photographie de rue, je fais du yoga et je suis passionné de cinéma indépendant.",,,Faux,Account Manager,David Kim
+Jennifer Davis,Business - CZ,TRUE,Paris,,"J'adore la musique classique, je fais de la randonnée et je suis curieux d'apprendre des langues étrangères.",,,Faux,Business Development Manager,David Kim
+Lucas King,Business - CZ,TRUE,Paris,,"J'aime le paddle, je fais de la calligraphie et je suis un passionné de voyages en train.",,,Faux,Business Development Manager,David Kim
+Alexis Vasquez,Content - CZ,TRUE,Paris,,"J'adore l'astronomie, je fais du bénévolat et je suis un amateur de peinture à l'huile.",,,Faux,Production & Delivery Manager,David Kim
+Marcus Harris,Content - CZ,TRUE,Paris,,"J'aime le cyclisme sur route, je fais de la lecture de romans policiers et je suis intéressé par les arts martiaux.",,,Faux,Content Maker,David Kim
+Rachel Martinez,Czech Republic,TRUE,Paris,,"J'adore les jeux de rôle, je fais de la peinture sur toile et je suis passionné de voyages en van.",,,Faux,Video Content Production Specialist,David Kim
+Matthew Davis,Marketing - CZ,TRUE,Paris,,"J'aime le théâtre d'improvisation, je fais de la couture et je suis un passionné de podcasts historiques.",,,Faux,Marketing and PR Manager,David Kim
+Tiffany Hughes,People & Office Management - CZ,TRUE,Paris,,"J'adore la poterie, je fais de l'équitation et je suis curieux de découvrir la culture scandinave.",,,Faux,People Ops & facilities coordinator,David Kim
+Anthony Phillips,Decision Makers,TRUE,Paris,,"J'aime la voile, je fais de la photographie de nature et je suis passionné par la musique folk.",,,Faux,Team Lead Editorial Decision Maker,Sarah Johnson
+Kevin Hughes,Editorial CZ,TRUE,Paris,,"J'adore le jardinage urbain, je fais du dessin et je suis un passionné de bricolage.",,,Faux,Lead Editor,Sarah Johnson
+Elizabeth Ford,Job Hunters,TRUE,Paris,,"J'aime le bowling, je fais de la méditation et je suis un amateur de littérature moderne.",,,Faux,Team Lead Job Hunters,Sarah Johnson
+Stephen Roberts,Marketing US,TRUE,Paris,,"J'adore la danse salsa, je fais de la randonnée en montagne et je suis intéressé par l'art déco.",,,Faux,Head of Marketing US,James Davis
+Amanda Wilson,Marketing UK,TRUE,Paris,,"J'aime le triathlon, je fais du jardinage en permaculture et je suis passionné par l'histoire de l'art.",,,Faux,Senior Marketing Manager,James Davis
+Caroline Thomas,Marketing UK,TRUE,Paris,,"J'adore les puzzles, je fais de l'escalade et je suis un passionné de festivals de films.",,,Faux,Senior B2B Marketing Manager,James Davis
+Joshua Brown,Marketing UK,TRUE,Paris,,"J'aime le skateboard, je fais du crochet et je suis curieux d'explorer la cuisine du monde.",,,Faux,Marketing Manager,James Davis
+Emily Nelson,Marketing UK,TRUE,Paris,,"J'aime l'escalade en salle, je fais de la photographie argentique et je suis passionné par la science.",,,Faux,Social Media Manager UK Contractor,James Davis
+Katherine Chen,Media Expansion US,TRUE,Paris,,"J'adore la musique indie, je fais de la poterie et je suis curieux des civilisations anciennes.",,,Faux,US Editor Associate,Sophia Lee
+Kevin Smith,Media Expansion US,TRUE,Paris,,"J'aime la randonnée nocturne, je fais du violon et je suis un passionné de design d'intérieur.",,,Faux,B2B US Senior Editor,Sophia Lee
+Kelly Cooper,Media Expansion US,TRUE,Paris,,"J'adore la danse hip-hop, je fais de la pâtisserie et je suis un passionné d’histoire de l'art.",,,Faux,B2C US Senior Editor,Sophia Lee
+John Smith,Corporate IT,TRUE,Paris,,"J'aime le yoga en pleine nature, je fais du jardinage et je suis curieux d'en apprendre plus sur l'astrologie.",,,Faux,Head of IT & Security,Robert Chen
+Ashley Lee,Employee Experience,TRUE,Paris,,"J'adore la cuisine asiatique, je fais de la sculpture et je suis passionné par la photographie d'architecture.",,,Faux,Employee Experience Team Lead,Natalie Garcia
+Isabella Davis,Legal,TRUE,Paris,,"J'aime les sports d'hiver, je fais de la peinture acrylique et je suis un amateur de voyages culturels.",,,Faux,Head of Legal,Natalie Garcia
+Madison Brown,People,TRUE,Paris,,"J'adore les jeux de société stratégiques, je fais du triathlon et je suis passionné de psychologie.",,,Faux,Senior People Program Manager Contractor,Natalie Garcia
+William Green,People Development,TRUE,Paris,,"J'aime la course à pied, je fais de la méditation et je suis un passionné de cinéma d'auteur.",,,Faux,Talent Development Team Lead,Natalie Garcia
+Matthew Foster,People Operations,TRUE,Paris,,"J'adore les festivals de jazz, je fais de la couture et je suis curieux d'explorer les traditions culinaires du monde.",,,Faux,People Operations Team Lead,Natalie Garcia
+Madison Parker,Talent Acquisition,TRUE,Paris,,"J'aime les randonnées en forêt, je fais de la lecture de science-fiction et je suis passionné par les innovations technologiques.",,,Faux,Head of Talent Acquisition,Natalie Garcia
+Matthew Miller,Account Management Teams,TRUE,Paris,,"J'adore la danse contemporaine, je fais de l'escalade et je suis un passionné de théâtre.",,,Faux,Account Management Director,Peter Wright
+Daniel King,Customer Management,TRUE,Paris,,"J'aime le kayak en mer, je fais de la photographie de voyage et je suis curieux des cultures locales.",,,Faux,VP Account Management & Customer Success SMB,Peter Wright
+Logan Parker,Revenue - France,TRUE,Paris,,"J'adore les expositions d'art, je fais de la peinture digitale et je suis passionné par l’histoire des religions.",,,Faux,Director Sales Enterprise & Agency,Peter Wright
+Matthew Foster,Revenue Operations Team,TRUE,Paris,,"J'aime le camping, je fais du rugby et je suis un passionné de musique classique.",,,Faux,Head of Revenue Operations,Peter Wright
+Nicholas Foster,Sales Teams France,TRUE,Paris,,"J'adore les soirées karaoké, je fais du paddle et je suis passionné par les séries documentaires.",,,Faux,Head of Sales Contractor,Peter Wright
+Adam Stevens,Strategy Operations,TRUE,Paris,,"J'aime les films d'animation japonais, je fais du vélo tout terrain et je suis un passionné de philosophie.",,,Faux,Senior Operations and Strategy Manager,Morgan Green
+Andrea Baker,Strategy Operations,TRUE,Paris,,"J'adore la randonnée en montagne, je fais de l'artisanat et je suis curieux de découvrir des nouvelles technologies.",,,Faux,Strategy & Operations Manager,Morgan Green
+Christina Miller,Strategy Operations,TRUE,Paris,,"J'aime les concerts acoustiques, je fais du dessin et je suis passionné de développement personnel.",,,Faux,Lead Strategic Operations Manager,Morgan Green
+Ethan Davis,Strategy Operations,TRUE,Paris,,"J'adore la photographie de nature, je fais du skate et je suis un passionné de littérature fantasy.",,,Faux,Lead Strategy Manager,Morgan Green
+Logan Parker,Strategy Operations,TRUE,Paris,,"J'aime le basketball, je fais du cinéma amateur et je suis intéressé par l’histoire contemporaine.",,,Faux,Operations and Strategy Manager,Morgan Green
+Maya Brown,Strategy Operations,TRUE,Paris,,"J'adore les jeux de cartes, je fais de l'équitation et je suis un passionné de biologie marine.",,,Faux,Strategic Projects Manager,Morgan Green
+Dylan Baker,Strategy Operations,TRUE,Paris,,"J'aime la danse jazz, je fais de la couture vintage et je suis passionné par les techniques de fabrication artisanale.",,,Faux,Media Operations Analyst Apprentice,Morgan Green
+Charlotte Parker,Finance,TRUE,Paris,,"J'adore les concerts de musique live, je fais du yoga et je suis un passionné de sports nautiques.",,,Faux,A/R Team Lead,Christopher Miller
+Cameron Black,Finance,TRUE,Paris,,"J'aime la pâtisserie française, je fais du jardinage urbain et je suis un passionné de théâtre contemporain.",,,Faux,Team lead Finance Business Partner,Christopher Miller
+Madison Davis,Finance,TRUE,Paris,,"J'adore les films de science-fiction, je fais de la randonnée et je suis un passionné de mécanique.",,,Faux,Senior Corporate Financial Planning & Analysis,Christopher Miller
+Sophia Young,Finance,TRUE,Paris,,"J'aime la musique pop, je fais du dessin au crayon et je suis curieux des pratiques spirituelles.",,,Faux,Lead General Accounting & A/P,Christopher Miller
+Yasmin Adams,Finance,TRUE,Paris,,"J'adore les expositions interactives, je fais de l'escrime et je suis passionné par l'astronomie.",,,Faux,Head of general accountant Contractor,Christopher Miller
+Samuel Clark,Finance UK,TRUE,Paris,,"J'aime la photographie de portrait, je fais du cyclisme urbain et je suis un passionné de films de guerre.",,,Faux,Head of Finance,Christopher Miller
+Amanda Carter,Finance,TRUE,Paris,,"J'adore la danse orientale, je fais du jardinage et je suis curieux d'explorer les traditions folkloriques.",,,Faux,Billing Apprentice,Charlotte Parker
+Ashley Foster,Finance,TRUE,Paris,,"J'aime les arts martiaux, je fais du rafting et je suis passionné par les voyages d'aventure.",,,Faux,Senior A/R Administrator,Charlotte Parker
+Madison Adams,Finance,TRUE,Paris,,"J'adore les concerts de musique alternative, je fais du running et je suis un passionné de psychologie sociale.",,,Faux,Senior A/R Administrator,Charlotte Parker
+Benjamin Lee,Finance,TRUE,Paris,,"J'aime le bénévolat, je fais de la sculpture sur bois et je suis passionné par les cuisines du monde.",,,Faux,Associate Finance Business Partner,Cameron Black
+Daniel Brown,Finance,TRUE,Paris,,"J'adore les films romantiques, je fais du yoga en extérieur et je suis curieux d'explorer l'architecture historique.",,,Faux,Finance Business Partner,Cameron Black
+Samuel Cooper,Finance,TRUE,Paris,,"J'aime les énigmes et les casse-têtes, je fais de la course d'orientation et je suis un passionné de gastronomie.",,,Faux,Finance Business Partner,Cameron Black
+Frederick King,Finance,TRUE,Paris,,"J'adore les concours de cuisine, je fais du dessin au fusain et je suis passionné par l'histoire ancienne.",,,Faux,General Accountant,Sophia Young
+Oliver Lewis,Finance,TRUE,Paris,,"J'aime la pratique du cerf-volant, je fais de la lecture sur la philosophie et je suis un passionné de sport automobile.",,,Faux,Accounting Apprentice,Sophia Young
+Matthew Baker,Finance UK,TRUE,Paris,,"J'adore les festivals de cinéma, je fais du théâtre d’improvisation et je suis un passionné de littérature contemporaine.",,,Faux,Finance Manager,Samuel Clark
+Charles Parker,SRE,TRUE,Paris,,"J'aime la couture, je fais de la musique électronique et je suis curieux des pratiques en développement durable.",,,Faux,Head of SRE,Kevin Lee
+Ethan Brown,Data,TRUE,Paris,,"J'adore les séminaires de leadership, je fais du badminton et je suis un passionné de nouvelles technologies.",,,Faux,Team Lead Data & Analytics Engineering,Benjamin Scott
+Jack Foster,Data,TRUE,Paris,,"J'aime les concerts de rock, je fais du jardinage en permaculture et je suis un passionné d'arts plastiques.",,,Faux,Team Lead Data Analyst,Benjamin Scott
+Frank Davis,Engineering,TRUE,Paris,,"J'adore les danses folkloriques, je fais du rugby et je suis curieux d'explorer les techniques ancestrales de fabrication.",,,Faux,Engineering Director,Kevin Lee
+Kyle Lewis,Engineering,TRUE,Paris,,"J'aime la photographie sous-marine, je fais de la randonnée pédestre et je suis passionné par la biologie.",,,Faux,Principal Engineer,Frank Davis
+Samuel Robinson,Engineering,TRUE,Paris,,"J'adore les festivals de musique électro, je fais de la peinture à l'aquarelle et je suis curieux des pratiques méditatives.",,,Faux,Staff Engineering Manager,Frank Davis
+Thomas Roberts,Engineering,TRUE,Paris,,"J'aime le basketball, je fais de la lecture sur l'innovation technologique et je suis un passionné de voyages à vélo.",,,Faux,Front end developer - Freelance,Frank Davis
+Victoria Lee,Product Design,TRUE,Paris,,"J'adore les films de science-fiction, je fais du surf et je suis passionné de musique expérimentale.",,,Faux,Head of Design,Benjamin Scott
+Andrew Green,QA Engineering,TRUE,Paris,,"J'aime les compétitions d'escalade, je fais de la cuisine moléculaire et je suis un passionné d'art numérique.",,,Faux,Staff QA Engineer,Benjamin Scott
+Grace Ford,Product Management,TRUE,Paris,,"J'adore la course de fond, je fais de la photographie de rue et je suis curieux d'explorer l'histoire des civilisations antiques.",,,Faux,VP Product Management,Benjamin Scott
+Adam Brown,SRE,TRUE,Paris,,"J'aime la photographie de paysage, je fais du vélo en ville et je suis passionné par la création de podcasts.",,,Faux,Senior Site Reliability Engineer,Charles Parker
+Marcus Davis,SRE,TRUE,Paris,,"J'adore la danse swing, je fais du dessin au pastel et je suis un passionné de photographie culinaire.",,,Faux,Senior Yaml Engineer,Charles Parker
+Patrick Nelson,SRE,TRUE,Paris,,"J'aime la gymnastique, je fais du tricot et je suis curieux d'explorer la culture indienne.",,,Faux,Senior Devops Engineer,Charles Parker
+Benjamin Lee,Data,TRUE,Paris,,"J'adore les concours de danse, je fais de la lecture sur la psychologie du comportement et je suis passionné de photographie nocturne.",,,Faux,Senior Data Engineer - Freelance,Ethan Brown
+Katherine Smith,Data,TRUE,Paris,,"J'aime le cinéma français, je fais de la randonnée alpine et je suis un passionné de musique classique.",,,Faux,Senior Data Engineer,Ethan Brown
+Kevin Black,Data,TRUE,Paris,,"J'adore les soirées jeux de société, je fais de l'origami et je suis curieux des pratiques de développement personnel.",,,Faux,Senior Data Engineer,Ethan Brown
+Thomas Cooper,Data,TRUE,Paris,,"J'aime les concerts de musique classique, je fais du yoga et je suis passionné par les traditions spirituelles.",,,Faux,Senior Analytics Engineer,Ethan Brown
+Zachary Martinez,Data,TRUE,Paris,,"J'adore la danse contemporaine, je fais de la boxe et je suis un passionné de littérature historique.",,,Faux,Data Analytics Engineer Intern,Ethan Brown
+Ashley Lee,Data,TRUE,Paris,,"J'aime le bodyboarding, je fais du théâtre et je suis curieux d'en apprendre plus sur l'histoire des religions.",,,Faux,Senior Data Analyst,Jack Foster
+Amanda King,Data,TRUE,Paris,,"J'adore les expos d'art numérique, je fais de la couture créative et je suis passionné par l'architecture moderne.",,,Faux,Senior Data Analyst,Jack Foster
+Alexandra Cooper,Data,TRUE,Paris,,"J'aime le ski alpin, je fais de la photographie portrait et je suis un passionné de culture gastronomique.",,,Faux,Senior Data Analyst Contractor,Jack Foster
+Morgan Robinson,Data,TRUE,Paris,,"J'adore les films d'animation, je fais du patin à glace et je suis passionné par l'écologie et le développement durable.",,,Faux,Associate Data Analyst,Jack Foster
+Natalie King,Data,TRUE,Paris,,"J'aime la randonnée en forêt, je fais de la musique acoustique et je suis curieux de découvrir des cultures étrangères.",,,Faux,Data Analyst,Jack Foster
+Benjamin Clark,Engineering,TRUE,Paris,,"J'adore le tango, je fais du jardinage bio et je suis un passionné de sciences humaines.",,,Faux,Engineering Manager,Frank Davis
+Cameron Green,Engineering,TRUE,Paris,,"J'aime les compétitions de natation, je fais du dessin à l'encre et je suis passionné par la technologie et l'innovation.",,,Faux,Engineering Manager,Frank Davis
+David Johnson,Engineering,TRUE,Paris,,"J'adore la cuisine italienne, je fais du yoga en extérieur et je suis curieux des philosophies orientales.",,,Faux,Someone,Frank Davis
+Gregory Parker,Engineering,TRUE,Paris,,"J'aime la peinture abstraite, je fais de la randonnée sur le littoral et je suis un passionné de cinéma documentaire.",,,Faux,Senior Back-End Developer,Frank Davis
+Jacob Reed,Engineering,TRUE,Paris,,"J'adore les compétitions de danse, je fais de la photographie de mode et je suis curieux d'explorer les traditions musicales anciennes.",,,Faux,Front-end Developer,Frank Davis
+Matthew Parker,Engineering,TRUE,Paris,,"J'aime les concerts acoustiques en plein air, je fais de l'escalade et je suis un passionné de photographie de voyage.",,,Faux,Engineering Manager Contractor,Frank Davis
+Oliver Davis,Engineering,TRUE,Paris,,"J'adore les jeux vidéo rétro, je fais de la méditation et je suis passionné par la physique quantique.",,,Faux,Senior Back-end Developper,Frank Davis
+Patrick Cooper,Engineering,TRUE,Paris,,"J'aime les expositions de street art, je fais du théâtre et je suis un passionné de voyages gastronomiques.",,,Faux,Senior Front-end Developer,Frank Davis
+Philip Harris,Engineering,TRUE,Paris,,"J'adore les balades en bateau, je fais de la course d'orientation et je suis curieux des cultures nordiques.",,,Faux,Senior Engineering Manager,Frank Davis
+Samuel Cooper,Engineering,TRUE,Paris,,"J'aime les compétitions de danse hip-hop, je fais de la cuisine végétarienne et je suis un passionné de design graphique.",,,Faux,Full-Stack Developer,Frank Davis
+Anthony Johnson,QA Engineering,TRUE,Paris,,"J'adore les concerts de blues, je fais de l'artisanat et je suis curieux des mystères de l'univers.",,,Faux,Senior QA Engineer,Andrew Green
+Felicity Parker,QA Engineering,TRUE,Paris,,"J'aime la randonnée en montagne, je fais de la plongée et je suis un passionné de littérature grecque antique.",,,Faux,Senior QA Engineer,Andrew Green
+Gregory Roberts,Engineering,TRUE,Paris,,"J'adore la musique rock, je fais du jardinage urbain et je suis passionné par les dynamiques sociales.",,,Faux,Staff Engineer,Samuel Robinson
+Sarah Adams,Engineering,TRUE,Paris,,"J'aime le paddle, je fais de la photographie analogique et je suis un passionné de philosophie de l'art.",,,Faux,Staff Engineer,Samuel Robinson
+Yasmin Vasquez,Engineering,TRUE,Paris,,"J'adore les soirées karaoké, je fais du vélo en nature et je suis curieux d'explorer le développement personnel.",,,Faux,Staff Engineer,Samuel Robinson
+Adam Brown,Product Design,TRUE,Paris,,"J'aime le badminton, je fais de la lecture sur les pratiques spirituelles et je suis un passionné de science-fiction.",,,Faux,Product Writer and Localization Specialist,Victoria Lee
+Amanda Martinez,Product Design,TRUE,Paris,,"J'adore les voyages à moto, je fais de la peinture sur toile et je suis passionné par l’histoire des civilisations anciennes.",,,Faux,Product Designer Contractor,Victoria Lee
+Jennifer Miller,Product Design,TRUE,Paris,,"J'aime le jeu d'échecs, je fais de la cuisine du monde et je suis un passionné de sports extrêmes.",,,Faux,Senior Product Designer,Victoria Lee
+Jessica Smith,Product Design,TRUE,Paris,,"J'adore la culture japonaise, je fais du dessin numérique et je suis curieux de découvrir la géopolitique.",,,Faux,Senior Product Designer,Victoria Lee
+Lauren Smith,Product Design,TRUE,Paris,,"J'aime les festivals de jazz, je fais de l'astrophotographie et je suis passionné par l’écologie.",,,Faux,Product Designer UK,Victoria Lee
+Lily Anderson,Product Design,TRUE,Paris,,"J'adore le théâtre d’impro, je fais de la pêche à la mouche et je suis curieux de découvrir l’histoire des arts martiaux.",,,Faux,Senior Product Designer,Victoria Lee
+Patricia Adams,Product Design,TRUE,Paris,,"J'aime la photographie de nature sauvage, je fais du running et je suis un passionné de musique blues.",,,Faux,Senior Product Designer,Victoria Lee
+Sophia Green,Product Design,TRUE,Paris,,"J'aime la voile, je fais de la photographie de portrait et je suis passionné par la musique classique.",,,Faux,Team Lead Product Design,Victoria Lee
+Jessica Brown,Product Design,TRUE,Paris,,"J'adore les films noirs, je fais de l'escalade en extérieur et je suis un passionné d'histoire médiévale.",,,Faux,UX Writing & Translation Apprentice,Sophia Green
+Ashley Adams,Product Design,TRUE,Paris,,"J'aime les événements culinaires, je fais du yoga et je suis un passionné de voyages en train.",,,Faux,Senior Product Designer,Sophia Green
+Charlotte Parker,Product Design,TRUE,Paris,,"J'adore la photographie de paysage, je fais du bénévolat et je suis curieux de découvrir les cultures locales.",,,Faux,Senior Product Designer,Sophia Green
+Marcus Parker,Product & Data,TRUE,Paris,,"J'aime le handball, je fais du dessin au fusain et je suis un passionné de cinéma d'art et d'essai.",,,Faux,Product Manager Contractor,Grace Ford
+Cameron Brown,Product Management,TRUE,Paris,,"J'adore la danse salsa, je fais de la couture et je suis curieux d'en apprendre plus sur l'histoire de la musique.",,,Faux,Product Manager,Grace Ford
+Cameron Black,Product Management,TRUE,Paris,,"J'aime le cinéma italien, je fais du vélo de course et je suis passionné par la philosophie existentialiste.",,,Faux,Senior Product Manager,Grace Ford
+Ethan Roberts,Product Management,TRUE,Paris,,"J'adore la cuisine végétarienne, je fais de la randonnée et je suis curieux des techniques de fabrication artisanale.",,,Faux,Senior Product Manager,Grace Ford
+Jason White,Product Management,TRUE,Paris,,"J'aime la photographie sous-marine, je fais du théâtre et je suis passionné par la conservation de la faune.",,,Faux,Senior Product Manager,Grace Ford
+Jennifer Smith,Product Management,TRUE,Paris,,"J'adore les festivals de musique, je fais du jardinage en permaculture et je suis passionné de sciences naturelles.",,,Faux,Product Architect,Grace Ford
+Thomas Cooper,Product Management,TRUE,Paris,,"J'aime les films d'aventure, je fais de l'art numérique et je suis curieux de découvrir l'histoire de l'aviation.",,,Faux,Senior Product Manager,Grace Ford
+Emily Adams,B2B Marketing,TRUE,Paris,,"J'adore les concours de cuisine, je fais du running et je suis passionné par l'anthropologie.",,,Faux,B2B Marketing Team Lead,Samuel Foster
+Ashley Roberts,Product Marketing,TRUE,Paris,,"J'aime la peinture à l'huile, je fais du patin à roulettes et je suis curieux d'explorer la culture africaine.",,,Faux,Product Marketing Manager,Samuel Foster
+Cameron Clark,Product Marketing,TRUE,Paris,,"J'adore les concerts de métal, je fais du skateboard et je suis passionné par les jeux de société stratégiques.",,,Faux,Senior Product Marketing Manager,Samuel Foster
+Cameron Brown,Product Marketing,TRUE,Paris,,"J'aime le roller, je fais de la photographie de rue et je suis passionné par l'archéologie.",,,Faux,Product Marketing Manager,Samuel Foster
+Jennifer Parker,Product Marketing,TRUE,Paris,,"J'adore la plongée sous-marine, je fais de la calligraphie et je suis curieux d'explorer la culture asiatique.",,,Faux,Senior Product Marketing Manager International,Samuel Foster
+Madison Stevens,Product Marketing,TRUE,Paris,,"J'aime les spectacles d'improvisation, je fais de la cuisine française et je suis passionné par l'architecture médiévale.",,,Faux,Strategic Partnerships Lead,Samuel Foster
+Rachel Adams,Product Marketing,TRUE,Paris,,"J'adore les jeux de société coopératifs, je fais du tennis et je suis curieux d'apprendre sur les civilisations antiques.",,,Faux,Team Lead Product Marketing,Samuel Foster
+Christopher Quinn,Engineering,TRUE,Paris,,"J'aime les concerts de musique acoustique, je fais de la course à pied et je suis passionné par les traditions folkloriques.",,,Faux,Senior Back-end Developer,Benjamin Clark
+Ethan Roberts,Engineering,TRUE,Paris,,"J'adore les soirées quiz, je fais de la pâtisserie et je suis un passionné de littérature romantique.",,,Faux,Software Engineer,Benjamin Clark
+Frederick Reed,Engineering,TRUE,Paris,,"J'aime la randonnée dans les montagnes, je fais du basket-ball et je suis passionné par les films d'horreur.",,,Faux,Senior Front-end Developer,Benjamin Clark
+Isaac Green,Engineering,TRUE,Paris,,"J'adore les jeux de rôle en ligne, je fais du vélo électrique et je suis curieux des innovations technologiques.",,,Faux,Engineering Manager,Benjamin Clark
+Benjamin Wilson,Engineering,TRUE,Paris,,"J'aime la sculpture sur métal, je fais de la course en montagne et je suis un passionné de photographie documentaire.",,,Faux,Back-end Developer,Cameron Green
+Daniel Green,Engineering,TRUE,Paris,,"J'adore les films comiques, je fais de la musique sur synthétiseur et je suis curieux d'explorer la culture scandinave.",,,Faux,Associate Front-end Developer,Cameron Green
+Gabriel Baker,Engineering,TRUE,Paris,,"J'aime le basketball, je fais du tricot et je suis passionné par l'art abstrait.",,,Faux,Back-end Developer,Cameron Green
+Isabella Martinez,Engineering,TRUE,Paris,,"J'adore les films d'animation 3D, je fais de l'escalade et je suis un passionné de littérature historique.",,,Faux,Associate Front-end Developer,Cameron Green
+Michael Roberts,Engineering,TRUE,Paris,,"J'aime les festivals de musique alternative, je fais de la peinture murale et je suis curieux d'explorer l'art de rue.",,,Faux,Engineering Manager,Matthew Parker
+Victoria Green,Engineering,TRUE,Paris,,"J'adore le cyclisme sur route, je fais du yoga en plein air et je suis passionné par l'astronomie.",,,Faux,Engineering Manager,Matthew Parker
+Thomas Vasquez,Product UK,TRUE,Paris,,"J'aime la danse de salon, je fais du dessin en perspective et je suis curieux d'explorer l'architecture classique.",,,Faux,Tech Lead,Isaac Green
+Daniel Parker,Data,TRUE,Paris,,"J'adore les concerts de reggae, je fais du bénévolat dans des associations et je suis passionné de théâtre d'improvisation.",,,Faux,Data Scientist,Jack Foster
+Thomas Miller,Data,TRUE,Paris,,"J'aime la culture rock, je fais du camping et je suis curieux d'explorer la géographie des régions montagneuses.",,,Faux,Senior Data Scientist,Jack Foster
+Alexander Smith,Commercial,TRUE,Paris,,"J'adore les jeux d'aventure, je fais de la photographie de nuit et je suis un passionné de sports d'hiver.",,,Faux,Head of Operations,Claire Evans
+Benjamin Roberts,Commercial,TRUE,Paris,,"J'aime la peinture à l'huile, je fais du badminton et je suis passionné par l'astronomie et les étoiles.",,,Faux,Executive Assistant,Alexander Smith
+Emma Brown,Operations UK,TRUE,Paris,,"J'adore les compétitions de danse contemporaine, je fais du jardinage et je suis curieux des traditions culinaires locales.",,,Faux,Customer Experience Lead,Alexander Smith
+Alexander Smith,Operations UK,TRUE,Paris,,"J'aime la randonnée en forêt, je fais du vtt et je suis passionné par les films d'aventure fantastique.",,,Faux,Operations Analyst,Emma Brown
+Thomas Parker,Operations UK,TRUE,Paris,,"J'adore les spectacles de magie, je fais du dessin au pastel et je suis curieux d'explorer les cultures méditerranéennes.",,,Faux,Operations Manager,Emma Brown
+William Davis,Operations UK,TRUE,Paris,,"J'aime la musique soul, je fais du karaté et je suis passionné par les romans policiers.",,,Faux,Senior Operations Analyst,Emma Brown
+Hannah Miller,Operations UK,TRUE,Paris,,"J'adore les festivals de cinéma d'animation, je fais du skateboard et je suis curieux de découvrir la culture japonaise.",,,Faux,Customer Care Representative,Emma Brown
+Patrick Brown,Operations UK,TRUE,Paris,,"J'aime la photographie de nature sauvage, je fais du théâtre d'improvisation et je suis passionné par les jeux de stratégie.",,,Faux,Customer Experience Manager,Emma Brown
+Catherine Green,People UK,TRUE,Paris,,"J'adore les concerts de musique jazz, je fais de la lecture sur l'histoire du jazz et je suis curieux d'explorer la photographie argentique.",,,Faux,People Partner,Madison Parker
+Jennifer Green,UK - Team,TRUE,Paris,,"J'aime la danse hip-hop, je fais de la cuisine du monde et je suis passionné par l'art de la photographie culinaire.",,,Faux,Commercial Director UK,Claire Evans
+Daniel Green,Commercial,TRUE,Paris,,"J'aime le jardinage urbain, je fais de la course à pied et je suis passionné par l'astrologie.",,,Faux,Account Executive,Jennifer Green
+Emma Adams,Commercial,TRUE,Paris,,"J'adore la photographie de mode, je fais du théâtre et je suis curieux d'explorer l'art de la calligraphie.",,,Faux,Senior Renewals Manager,Jennifer Green
+Emma Wilson,Commercial,TRUE,Paris,,"J'aime les films historiques, je fais de l'équitation et je suis passionné par la musique traditionnelle.",,,Faux,Account Executive,Jennifer Green
+Lauren Black,Commercial,TRUE,Paris,,"J'adore la danse flamenco, je fais du paddle et je suis passionné par les pratiques de développement durable.",,,Faux,Customer Success Lead,Jennifer Green
+Patrick Brown,Commercial,TRUE,Paris,,"J'aime la randonnée en montagne, je fais de la couture et je suis curieux des arts martiaux.",,,Faux,Sales Team Lead,Jennifer Green
+Thomas Miller,Commercial,TRUE,Paris,,"J'adore les soirées jeux de société, je fais du jardinage biologique et je suis passionné par la géopolitique.",,,Faux,Account Executive,Patrick Brown
+Jessica Brown,Commercial,TRUE,Paris,,"J'aime la lecture de romans policiers, je fais du vélo de montagne et je suis passionné par la peinture surréaliste.",,,Faux,Account Executive,Patrick Brown
+Nicholas Oliver,Commercial,TRUE,Paris,,"J'adore les festivals de musique jazz, je fais de l'origami et je suis curieux d'explorer l'histoire des civilisations antiques.",,,Faux,Senior Sales Executive,Patrick Brown
+Timothy Smith,Commercial,TRUE,Paris,,"J'aime le football, je fais de la cuisine asiatique et je suis passionné par la littérature féministe.",,,Faux,Revenue Operations Manager,Jennifer Green
+Yasmin King,Commercial,TRUE,Paris,,"J'adore la culture rétro, je fais du running et je suis passionné par la musique classique.",,,Faux,Revenue Operations Manager,Jennifer Green
+Yasmin Smith,Commercial,TRUE,Paris,,"J'aime les expositions d'art abstrait, je fais du ski alpin et je suis curieux d'explorer l'histoire de l'art moderne.",,,Faux,Senior Revenue Operations Analyst,Jennifer Green
+Hannah Miller,Commercial,TRUE,Paris,,"J'adore les concerts de rock, je fais du tennis de table et je suis passionné par la psychologie des comportements humains.",,,Faux,Customer Success Manager,Lauren Black
+Nathan Brown,Commercial,TRUE,Paris,,"J'aime la lecture de science-fiction, je fais de la plongée et je suis passionné par les sports extrêmes.",,,Faux,Customer Success Manager,Lauren Black
+Samuel Brown,Commercial,TRUE,Paris,,"J'adore les films d'aventure, je fais de la peinture à l'huile et je suis passionné par la culture des années 60.",,,Faux,Senior Customer Success Manager,Lauren Black
+Samuel Smith,Commercial,TRUE,Paris,,"J'aime la pratique du surf, je fais de la photographie en noir et blanc et je suis curieux d'explorer les techniques d'édition vidéo.",,,Faux,Customer Success Manager,Lauren Black
+Samuel Miller,Commercial,TRUE,Paris,,"J'adore les compétitions de danse hip-hop, je fais du théâtre et je suis passionné par la culture asiatique.",,,Faux,Customer Success Manager,Lauren Black
+Matthew Smith,UK - Team,TRUE,Paris,,"J'aime la musique électronique, je fais du jardinage en permaculture et je suis passionné par les voyages à vélo.",,,Faux,BDR Team Lead,Jennifer Green
+Ashley Nelson,dotConferences,TRUE,Paris,,"J'adore les jeux de rôle en ligne, je fais du patinage artistique et je suis curieux des sciences sociales.",,,Faux,Sales Manager,Noah Parker
+Ashley Nelson,dotConferences,TRUE,Paris,,"J'aime la culture alternative, je fais de la sculpture sur bois et je suis passionné par les films d'horreur.",,,Faux,Head of Event and Attendee Experience,Noah Parker
+William Cooper,B2C & Monitezation Marketing,TRUE,Paris,,"J'adore les expositions de street art, je fais de la guitare acoustique et je suis passionné par la politique environnementale.",,,Faux,Senior Sponsorship & B2C Manager,Thomas Wang
+Julia Rodriguez,Editorial & Marketing,TRUE,Paris,,"J'aime la randonnée en forêt, je fais du yoga et je suis passionné par la géographie et les cultures du monde.",,,Faux,Content & Project Manager Contractor,Emma Wilson
+Sophia Adams,Growth Marketing,TRUE,Paris,,"J'adore les concerts de musique indie, je fais de la photographie de paysage et je suis curieux d'explorer la psychologie humaine.",,,Faux,Senior Paid Traffic Manager,Michael Thompson
+Margaret Rodriguez,Growth Marketing,TRUE,Paris,,"J'aime la cuisine italienne, je fais de la peinture numérique et je suis passionné par les jeux vidéo rétro.",,,Faux,Lead Growth Manager,Michael Thompson
+Jessica Baker,Brand Management,TRUE,Paris,,"J'adore les festivals de musique électronique, je fais de l'astronomie et je suis passionné par les livres de développement personnel.",,,Faux,Brand Manager Apprentice,Catherine Black
+Matthew Peterson,Brand Management,TRUE,Paris,,"J'aime la danse classique, je fais du vélo de course et je suis passionné par les jeux de société modernes.",,,Faux,Brand Manager,Catherine Black
+Maria Bennett,Creative Conception,TRUE,Paris,,"J'adore les films documentaires, je fais du kayak et je suis curieux d'explorer les différentes formes de narration.",,,Faux,Graphic Designer Intern,Yasmin Green
+Alice Turner,Social Media,TRUE,Paris,,"J'aime la peinture à l'aquarelle, je fais du volleyball et je suis passionné par les religions du monde.",,,Faux,Community Manager US,Melissa Liu
+Jonathan Jones,Social Media,TRUE,Paris,,"J'adore la cuisine de rue, je fais de la course à pied et je suis curieux des traditions spirituelles.",,,Faux,Social Ads Manager,Melissa Liu
+Megan Gray,Social Media,TRUE,Paris,,"J'aime les compétitions de tennis, je fais de la lecture sur la psychologie positive et je suis passionné par la photographie de nature.",,,Faux,Community Manager Associate,Melissa Liu
+Marcus Bell,Social Media,TRUE,Paris,,"J'adore les concerts acoustiques, je fais de la course en montagne et je suis curieux de découvrir des cultures autochtones.",,,Faux,Social Media Intern,Melissa Liu
+Andrew Ross,Video Production,TRUE,Paris,,"J'aime les films noirs, je fais de la peinture en plein air et je suis passionné par l'histoire des arts graphiques.",,,Faux,Production Coordinator,Marcus Brooks
+Christopher Taylor,Video Production,TRUE,Paris,,"J'adore la danse de salon, je fais du bénévolat dans des associations et je suis curieux des techniques de permaculture.",,,Faux,Video Editor (Media),Marcus Brooks
+Jennifer Davis,Video Production,TRUE,Paris,,"J'aime la photographie de paysage, je fais du trampoline et je suis passionné par l'astrophysique.",,,Faux,Lead Filmmaker,Marcus Brooks
+Lucas Reed,Video Production,TRUE,Paris,,"J'adore la pratique du basket-ball, je fais de la lecture sur les grandes civilisations et je suis passionné par les festivals de musique live.",,,Faux,Video Editor (Media),Marcus Brooks
+Samuel Robinson,Video Production,TRUE,Paris,,"J'aime les événements de street food, je fais du dessin au fusain et je suis curieux d'explorer les cultures méditerranéennes.",,,Faux,Filmmaker,Marcus Brooks
+Timothy Baker,Video Production,TRUE,Paris,,"J'adore les compétitions de danse contemporaine, je fais du jardinage bio et je suis passionné par la culture des années 80.",,,Faux,Filmmaker,Marcus Brooks
+Tyler Davis,Video Production,TRUE,Paris,,"J'aime la sculpture, je fais du running et je suis curieux de découvrir les traditions culinaires de l'Asie.",,,Faux,Senior Photographer,Marcus Brooks
+Brandon Brown,Video Production,TRUE,Paris,,"J'adore les films fantastiques, je fais du camping en pleine nature et je suis passionné par les innovations technologiques.",,,Faux,Senior Motion Designer,Marcus Brooks
+Felicity Brown,Marketing - CZ,TRUE,Paris,,"J'aime les expositions de photographie, je fais de la pêche sportive et je suis passionné par les voyages culturels.",,,Faux,Junior Marketing Specialist,Matthew Davis
+Madison Davis,Decision Makers,TRUE,Paris,,"J'adore les soirées de poésie, je fais du ski de fond et je suis curieux d'explorer les formes d'art modernes.",,,Faux,Lead Editor Lab,Anthony Phillips
+Tyler Lewis,Decision Makers,TRUE,Paris,,"J'aime la méditation, je fais de la photographie en noir et blanc et je suis passionné par l'histoire du cinéma.",,,Faux,Senior Video Journalist,Anthony Phillips
+Alexandra Cooper,Job Hunters,TRUE,Paris,,"J'adore les festivals de théâtre, je fais du skateboard et je suis curieux de découvrir les arts anciens.",,,Faux,France Editor,Elizabeth Ford
+Grace Parker,Job Hunters,TRUE,Paris,,"J'aime la musique jazz, je fais du patinage et je suis passionné par la littérature de voyage.",,,Faux,Lead Journalist,Elizabeth Ford
+Lauren Clark,Job Hunters,TRUE,Paris,,"J'adore la peinture en acrylique, je fais de la randonnée en forêt et je suis un passionné de psychologie cognitive.",,,Faux,Video Journalist,Elizabeth Ford
+Maria Anderson,Job Hunters,TRUE,Paris,,"J'aime la cuisine mexicaine, je fais de la course à pied et je suis intéressé par les sciences humaines.",,,Faux,France Editor,Elizabeth Ford
+Samuel Carter,Job Hunters,TRUE,Paris,,"J'adore les films de science-fiction, je fais de l'escalade et je suis un passionné d'astronomie.",,,Faux,Lead Video Journalist,Elizabeth Ford
+Gabriel Baker,Job Hunters,TRUE,Paris,,"J'aime le dessin au graphite, je fais du yoga et je suis curieux d'explorer les différents types de cuisine du monde.",,,Faux,SEO Contractor,Elizabeth Ford
+Christopher Foster,Business Technology,TRUE,Paris,,"J'adore les concerts de musique soul, je fais du jardinage urbain et je suis passionné par la mode vintage.",,,Faux,Business Technology Manager,John Smith
+Caroline Green,Business Technology,TRUE,Paris,,"J'aime les sports nautiques, je fais du bénévolat et je suis passionné par les traditions folkloriques.",,,Faux,Senior CRM Manager,Christopher Foster
+Gregory Nelson,Business Technology,TRUE,Paris,,"J'adore les événements en plein air, je fais du cyclisme urbain et je suis curieux des innovations dans le design écologique.",,,Faux,Associate Automation Engineer,Christopher Foster
+Jacob Reed,Business Technology,TRUE,Paris,,"J'aime les films d'animation, je fais de la musique électronique et je suis passionné par l'art du tatouage.",,,Faux,Senior Automation Engineer,Christopher Foster
+Gabriel Brown,Business Technology,TRUE,Paris,,"J'adore les soirées quiz, je fais du street workout et je suis passionné par les civilisations anciennes.",,,Faux,CRM Intern,Caroline Green
+Ashley Roberts,Corporate IT,TRUE,Paris,,"J'aime le théâtre d'improvisation, je fais du running et je suis curieux de découvrir les philosophies orientales.",,,Faux,Senior IT Engineer,John Smith
+Daniel Brown,Corporate IT,TRUE,Paris,,"J'adore les compétitions de danse jazz, je fais du yoga et je suis passionné par la peinture moderne.",,,Faux,UK IT Engineer,John Smith
+Patrick Smith,Corporate IT,TRUE,Paris,,"J'aime la photographie de mode, je fais du volley-ball et je suis un passionné d'art de rue.",,,Faux,IT Manager,John Smith
+Adam Brown,Corporate IT,TRUE,Paris,,"J'adore les festivals de cinéma d'animation, je fais du roller et je suis curieux d'explorer la culture japonaise.",,,Faux,IT Technician Apprentice,Patrick Smith
+Ashley Lewis,Workplace Management,TRUE,Paris,,"J'aime les jeux de société collaboratifs, je fais de la musique classique et je suis passionné par les écrits philosophiques.",,,Faux,Office,Ashley Lee
+Jacob Reed,Workplace Management,TRUE,Paris,,"J'adore les films de super-héros, je fais du badminton et je suis un passionné de littérature fantasy.",,,Faux,Receptionist,Ashley Lee
+Katherine Evans,Workplace Management,TRUE,Paris,,"J'aime les spectacles de magie, je fais de l'origami et je suis curieux des techniques anciennes de fabrication.",,,Faux,Office Manager Contractor,Ashley Lee
+Katherine Lee,Workplace Management,TRUE,Paris,,"J'adore les concerts de musique alternative, je fais de la couture et je suis passionné par la photographie de paysages urbains.",,,Faux,Workplace Experience Manager Contractor,Ashley Lee
+Samuel Johnson,Employee Experience,TRUE,Paris,,"J'aime la randonnée en haute montagne, je fais du tricot et je suis passionné par l'écologie.",,,Faux,Office Manager,Ashley Lee
+Lauren Miller,Legal,TRUE,Paris,,"J'adore la cuisine indienne, je fais du théâtre et je suis curieux de découvrir les arts du spectacle.",,,Faux,DPO & Senior Legal Counsel,Isabella Davis
+Matthew Brown,Legal,TRUE,Paris,,"J'aime la danse tango, je fais du badminton et je suis passionné par les voyages d'aventure.",,,Faux,Senior Legal Counsel,Isabella Davis
+Felicity Davis,People Development,TRUE,Paris,,"J'adore les compétitions de danse de salon, je fais de la peinture abstraite et je suis passionné par l'art de la photographie.",,,Faux,People Partner,William Green
+Felicity Miller,People Development,TRUE,Paris,,"J'aime la lecture de poésie, je fais du skate et je suis curieux d'explorer l'architecture moderne.",,,Faux,Senior People Partner,William Green
+Madison Cooper,People Development,TRUE,Paris,,"J'adore la pratique du cyclisme, je fais du bénévolat et je suis passionné par les innovations dans les matériaux écologiques.",,,Faux,Senior Learning & Development Specialist,William Green
+Emma Davis,People Operations,TRUE,Paris,,"J'aime la musique classique, je fais du jardinage et je suis un passionné de photographie sous-marine.",,,Faux,People Operations Manager,Matthew Foster
+Emma Johnson,People Operations,TRUE,Paris,,"J'adore les expositions d'art moderne, je fais de la photographie de rue et je suis curieux de découvrir les cultures africaines.",,,Faux,People Operations Analyst,Matthew Foster
+Ashley Green,People Operations,TRUE,Paris,,"J'aime le jeu d'échecs, je fais du sport nautique et je suis passionné par l'art de la gestion des entreprises.",,,Faux,Payroll & Admin Specialist,Matthew Foster
+Rachel Adams,People UK,TRUE,Paris,,"J'adore la photographie de paysages urbains, je fais du yoga et je suis curieux d'explorer la culture des peuples autochtones.",,,Faux,Talent Acquisition Manager Contractor,Madison Parker
+Emma Lee,Talent Acquisition,TRUE,Paris,,"J'aime le vélo de course, je fais de la peinture et je suis passionné par les jeux de société de stratégie.",,,Faux,Talent Acquisition Manager Contractor,Madison Parker
+Frederick King,Talent Acquisition,TRUE,Paris,,"J'adore les concerts de musique indie, je fais du tennis de table et je suis passionné par l'écriture créative.",,,Faux,Talent Acquisition Manager,Madison Parker
+Lauren Miller,Talent Acquisition,TRUE,Paris,,"J'aime la lecture sur l'histoire des civilisations, je fais du rugby et je suis passionné par la permaculture.",,,Faux,Talent Acquisition Manager,Madison Parker
+Ashley Smith,Talent Acquisition,TRUE,Paris,,"J'adore les films documentaires, je fais du ski nautique et je suis curieux des pratiques sociales et culturelles anciennes.",,,Faux,Talent Acquisition Intern,Madison Parker
+Lauren Parker,AM Growth Team (B),TRUE,Paris,,"J'aime la musique alternative, je fais de la randonnée en forêt et je suis passionné par la géopolitique mondiale.",,,Faux,Team Lead Account Management,Matthew Miller
+Madison Parker,AM Growth Team (C),TRUE,Paris,,"J'adore la pratique de la photographie de portrait, je fais de la peinture en acrylique et je suis curieux d'explorer les techniques d'édition vidéo.",,,Faux,Team Lead Account Management,Matthew Miller
+Patrick Parker,AM Mid Market Team,TRUE,Paris,,"J'aime les festivals de musique, je fais du théâtre d'improvisation et je suis passionné par la cuisine du monde.",,,Faux,Team Lead AM Mid Contractor,Matthew Miller
+Lauren Miller,AM Growth Team (B),TRUE,Paris,,"J'aime le paddle, je fais de la photographie de nature et je suis passionné par la philosophie moderne.",,,Faux,Senior Account Manager,Lauren Parker
+Matthew Evans,AM Growth Team (B),TRUE,Paris,,"J'adore les films d'aventure, je fais du jardinage bio et je suis curieux des technologies liées à la mobilité durable.",,,Faux,Account Manager (Growth),Lauren Parker
+Sophia Green,AM Growth Team (B),TRUE,Paris,,"J'aime la randonnée en montagne, je fais de la peinture sur toile et je suis un passionné d'histoire des civilisations.",,,Faux,Senior Account Manager,Lauren Parker
+Lauren Brown,AM Growth Team (C),TRUE,Paris,,"J'adore les concerts de rock, je fais du volley-ball et je suis passionné par la science-fiction.",,,Faux,Account Manager,Madison Parker
+Matthew Oliver,AM Growth Team (C),TRUE,Paris,,"J'aime la cuisine végétarienne, je fais de l'escalade et je suis un passionné de photographie de voyage.",,,Faux,Senior Account Manager (Growth),Madison Parker
+Ashley Cooper,AM Mid Market Team,TRUE,Paris,,"J'adore les expositions de peinture impressionniste, je fais du sport nautique et je suis curieux d'explorer les différentes cultures musicales.",,,Faux,Senior Customer Retention Manager,Patrick Parker
+Christopher Lee,AM Mid Market Team,TRUE,Paris,,"J'aime la danse contemporaine, je fais de la pâtisserie et je suis passionné par l'art du théâtre.",,,Faux,Account Manager,Patrick Parker
+Madison Stevens,AM Mid Market Team,TRUE,Paris,,"J'adore les festivals de musique électro, je fais du jardinage en permaculture et je suis passionné par l'innovation technologique.",,,Faux,Senior Account Manager,Patrick Parker
+Madison Davis,AM Mid Market Team,TRUE,Paris,,"J'aime la peinture au pastel, je fais du badminton et je suis passionné par l'astronomie et l'observation des étoiles.",,,Faux,Customer Retention Manager Contractor,Patrick Parker
+Timothy Baker,AM Mid Market Team,TRUE,Paris,,"J'adore les compétitions de danse classique, je fais du vélo de montagne et je suis passionné par la littérature de voyage.",,,Faux,Account Manager (Mid Market),Patrick Parker
+Madison Anderson,Sales Seed Team - FR,TRUE,Paris,,"J'aime le cinéma muet, je fais de la couture vintage et je suis curieux d'explorer l'histoire des peuples anciens.",,,Faux,Team Lead AE SMB Contractor,Patrick Parker
+Alexander Harris,AM Seeds/Growth (A) Team,TRUE,Paris,,"J'adore les concerts de blues, je fais de la photographie argentique et je suis passionné par la psychologie des groupes sociaux.",,,Faux,Account Manager,Madison Anderson
+Isabella Reed,AM Seeds/Growth (A) Team,TRUE,Paris,,"J'aime le handball, je fais du dessin à l'encre et je suis un passionné de l'art de la mosaïque.",,,Faux,Senior Account Manager,Madison Anderson
+Jennifer Lee,AM Seeds/Growth (A) Team,TRUE,Paris,,"J'adore les événements de street food, je fais de la sculpture et je suis curieux des traditions spirituelles.",,,Faux,Account Manager (Growth),Madison Anderson
+Matthew Adams,Account Management Teams,TRUE,Paris,,"J'aime les jeux de stratégie, je fais du yoga et je suis passionné par l'art de la narration dans les jeux vidéo.",,,Faux,Account Manager,Matthew Miller
+Caroline Davis,Account Management Teams,TRUE,Paris,,"J'adore les films d'animation japonaise, je fais du skate et je suis un passionné de design industriel.",,,Faux,Account Manager (Mid),Matthew Miller
+Cameron Davis,Account Management Teams,TRUE,Paris,,"J'aime le théâtre d'improvisation, je fais de la photographie de portrait et je suis passionné par l'art des performances en live.",,,Faux,Account Manager,Matthew Miller
+Cameron Black,Customer Care,TRUE,Paris,,"J'adore la musique folk, je fais de la course à pied et je suis curieux d'apprendre sur les différentes formes d'expressions artistiques.",,,Faux,Team Lead Customer Care,Daniel King
+Ashley Adams,Customer Care,TRUE,Paris,,"J'aime la peinture réaliste, je fais du volleyball et je suis passionné par l'histoire des civilisations antiques.",,,Faux,Senior Customer Care Specialist,Cameron Black
+Madison Thompson,Customer Care,TRUE,Paris,,"J'adore les compétitions de jeux vidéo, je fais de la cuisine maison et je suis curieux d'explorer la culture des années 80.",,,FALSE,Customer Care Specialist,Cameron Black
+Victoria Foster,Customer Care,TRUE,Paris,,"J'aime la danse latine, je fais du jardinage en ville et je suis passionné par les traditions culinaires du monde.",,,FALSE,Customer Care Specialist,Cameron Black
+Felicity Parker,Customer Success,TRUE,Paris,,"J'adore les films de science-fiction, je fais de la randonnée alpine et je suis passionné par la culture nordique.",,,FALSE,Team Lead Customer Success,Daniel King
+Lauren Miller,Customer Success,TRUE,Paris,,"J'aime la photographie de rue, je fais du tennis et je suis curieux d'explorer les différentes philosophies de vie.",,,FALSE,Team Lead Customer Success,Daniel King
+Ashley Vasquez,Customer Success,TRUE,Paris,,"J'adore les festivals de jazz, je fais du running et je suis passionné par la culture du vin et des accords mets-vins.",,,FALSE,Customer Retention Manager,Felicity Parker
+Ashley Lee,Customer Success,TRUE,Paris,,"J'aime les sports de combat, je fais de la sculpture sur bois et je suis passionné par les tendances en développement personnel.",,,FALSE,Customer Success Manager (Prime),Felicity Parker
+Charlotte Parker,Customer Success,TRUE,Paris,,"J'adore les concerts de musique acoustique, je fais de la pâtisserie et je suis curieux d'explorer les métiers de l'artisanat traditionnel.",,,FALSE,Customer Success Manager,Felicity Parker
+Emma Brown,Customer Success,TRUE,Paris,,"J'aime le cinéma d'auteur, je fais du vélo électrique et je suis passionné par les voyages à travers le monde.",,,FALSE,Senior Customer Success Manager (Prime),Felicity Parker
+Grace Davis,Customer Success,TRUE,Paris,,"J'adore la photographie de paysage, je fais du rugby et je suis passionné par l'art de la narration visuelle.",,,FALSE,Senior Customer Success Manager (Prime),Felicity Parker
+Hannah Davis,Customer Success,TRUE,Paris,,"J'aime la danse swing, je fais du théâtre et je suis un passionné de sports collectifs.",,,FALSE,Senior Customer Success Manager (Prime),Felicity Parker
+Jennifer Smith,Customer Success,TRUE,Paris,,"J'adore les soirées karaoké, je fais de la couture et je suis curieux d'explorer l'histoire de la danse contemporaine.",,,FALSE,Senior Customer Success Manager (Prime),Felicity Parker
+Jessica Brown,Customer Success,TRUE,Paris,,"J'aime les films policiers, je fais du paddle et je suis passionné par l'art du graffiti et de la culture urbaine.",,,FALSE,Customer Success Manager (Prime),Felicity Parker
+Matthew Davis,Customer Success,TRUE,Paris,,"J'adore les événements de littérature, je fais du jardinage et je suis un passionné de photographie contemporaine.",,,FALSE,Senior Customer Success Manager (Prime),Felicity Parker
+Ashley Lee,Customer Success,TRUE,Paris,,"J'aime la danse salsa, je fais de la lecture sur la psychologie et je suis curieux d'apprendre plus sur la gestion du stress.",,,FALSE,Customer Success Manager (Advanced),Lauren Miller
+Cameron Brown,Customer Success,TRUE,Paris,,"J'adore les concerts de rock alternatif, je fais du bénévolat et je suis passionné par l'impact de l'innovation sur le quotidien.",,,FALSE,Customer Success Manager (Advanced),Lauren Miller
+Cameron Reed,Customer Success,TRUE,Paris,,"J'aime la sculpture, je fais du skate et je suis curieux des pratiques ancestrales en méditation.",,,FALSE,Customer Success Manager (Advanced),Lauren Miller
+Jennifer Cooper,Customer Success,TRUE,Paris,,"J'adore les films fantastiques, je fais du yoga et je suis passionné par la musique du monde.",,,FALSE,Customer Success Manager (Advanced),Lauren Miller
+Thomas Parker,Customer Success,TRUE,Paris,,"J'aime les compétitions de théâtre, je fais du cyclisme urbain et je suis curieux des dynamiques sociétales à travers le cinéma.",,,FALSE,Customer Success Manager (Essential),Lauren Miller
+Alexander Smith,Onboarding & Production,TRUE,Paris,,"J'adore les concerts de musique indie, je fais de la cuisine végétarienne et je suis passionné par la photographie de mariage.",,,FALSE,Head of Onboarding and Production,Daniel King
+Sarah Lee,Production Experience,TRUE,Paris,,,,,FALSE,Production Experience Director,Alexander Smith
+Lauren Davis,Production Experience,TRUE,Paris,,,,,FALSE,Production Team Lead,Sarah Lee
+Quinn Green,Production Experience,TRUE,Paris,,,,,FALSE,Production Operations Team Lead,Sarah Lee
+Adam Martinez,Production Experience,TRUE,Paris,,,,,FALSE,Talent & Production Administrator Contractor,Sarah Lee
+Ashley Davis,Production Experience,TRUE,Paris,,,,,FALSE,Senior Video Project Editor,Sarah Lee
+Hannah Miller,Production Experience,TRUE,Paris,,,,,FALSE,Video Editor,Sarah Lee
+Lauren Clark,Production Experience,TRUE,Paris,,,,,FALSE,Senior Video Editor,Sarah Lee
+Lauren Johnson,Production Experience,TRUE,Paris,,,,,FALSE,Photo Production Specialist,Sarah Lee
+Nathan Miller,Production Experience,TRUE,Paris,,,,,FALSE,Video Editor,Sarah Lee
+Richard Davis,Production Experience,TRUE,Paris,,,,,FALSE,Video Editor Apprentice,Sarah Lee
+Madison Lee,Production Experience,TRUE,Paris,,,,,FALSE,Photo Editor Contractor,Sarah Lee
+Lauren Reed,Production Experience,TRUE,Paris,,,,,FALSE,Senior Producer,Lauren Davis
+Madison Thompson,Production Experience,TRUE,Paris,,,,,FALSE,Associate Producer,Lauren Davis
+Madison Harris,Production Experience,TRUE,Paris,,,,,FALSE,Talent & Production Administrator Contractor,Lauren Davis
+Samuel Smith,Production Experience,TRUE,Paris,,,,,FALSE,Producer,Lauren Davis
+Lauren Parker,Operations,TRUE,Paris,,,,,FALSE,Associate Producer,Lauren Davis
+Ashley Nelson,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Cameron Green,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Intern,Alexander Smith
+Emma Foster,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Emma Davis,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Isabella King,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Jennifer Nelson,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Madison Green,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Madison Harris,Onboarding Experience,TRUE,Paris,,,,,FALSE,Senior Customer Onboarding Manager,Alexander Smith
+Rachel Brown,Onboarding Experience,TRUE,Paris,,,,,FALSE,Customer Onboarding Manager,Alexander Smith
+Gregory Thomas,Technical Support,TRUE,Paris,,,,,FALSE,Technical Support Manager,Daniel King
+Jason White,Technical Support,TRUE,Paris,,,,,FALSE,Technical Support Engineer,Gregory Thomas
+Matthew Brown,Technical Support,TRUE,Paris,,,,,FALSE,Technical Support Engineer,Gregory Thomas
+Catherine Green,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Team leader KAM,Logan Parker
+Madison Black,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Senior Key Account Manager,Catherine Green
+Madison Brown,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Senior Strategic Account Manager,Catherine Green
+Madison Nelson,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Key Account Manager,Catherine Green
+Madison Lewis,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Senior Strategic Account Manager,Catherine Green
+Nathan Miller,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Senior Key Account Manager,Catherine Green
+Yasmin Cooper,AM Enterprise Team,TRUE,Paris,,,,,FALSE,Key Account Manager,Catherine Green
+Catherine Green,Customer Management,TRUE,Paris,,,,,FALSE,Customer Success Manager Key Accounts,Daniel King
+Jennifer Jones,Customer Management,TRUE,Paris,,,,,FALSE,Customer Success Manager Key Accounts,Daniel King
+Ryan Williams,Indirect Sales,TRUE,Paris,,,,,FALSE,Agencies & Partnerships Manager,Robert Chen
+Chloe Adams,Indirect Sales,TRUE,Paris,,,,,FALSE,Agencies & Partnership Manager,Robert Chen
+Michelle Lewis,Indirect Sales,TRUE,Paris,,,,,FALSE,Agencies & Partnerships Manager,Robert Chen
+Benjamin Roberts,Sales Enterprise Team - FR,TRUE,Paris,,,,,FALSE,Head of Enterprise & Agencies Contractor,Logan Parker
+Madison Martinez,Sales Enterprise Team - FR,TRUE,Paris,,,,,FALSE,Sales Team Manager Enterprise,Benjamin Roberts
+Lauren Davis,Sales Enterprise Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive (Enterprise),Madison Martinez
+Nathan Lewis,Sales Enterprise Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Account Executive (Enterprise),Madison Martinez
+Patrick Lewis,Sales Enterprise Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Account Executive,Madison Martinez
+Victoria Lewis,Sales Teams France,TRUE,Paris,,,,,FALSE,Senior Key Account Manager - Enterprise,Benjamin Roberts
+Richard Green,Revenue - France,TRUE,Paris,,,,,FALSE,Key Account Manager,Logan Parker
+Daniel Foster,Business Excellence,TRUE,Paris,,,,,FALSE,Head of Business Operations,Matthew Foster
+Lauren Black,Customer Experience,TRUE,Paris,,,,,FALSE,Customer Experience Team Lead,Matthew Foster
+Jennifer Vasquez,Enablement,TRUE,Paris,,,,,FALSE,Lead Revenue Enablement,Matthew Foster
+Daniel Brown,Process & Tools,TRUE,Paris,,,,,FALSE,CRM Manager Contractor,Matthew Foster
+Cameron Miller,Business Excellence,TRUE,Paris,,,,,FALSE,New Revenue Streams Manager,Daniel Foster
+Jennifer Cooper,Business Excellence,TRUE,Paris,,,,,FALSE,RevOps Data Analyst,Daniel Foster
+Thomas Johnson,Business Excellence,TRUE,Paris,,,,,FALSE,Sales Operations Manager,Daniel Foster
+Lauren Foster,Business Excellence,TRUE,Paris,,,,,FALSE,Business Analyst Intern,Thomas Johnson
+Cameron Brown,Customer Experience,TRUE,Paris,,,,,FALSE,Revenue Operations Intern,Lauren Black
+Madison Black,Customer Experience,TRUE,Paris,,,,,FALSE,Senior Customer Success Manager,Lauren Black
+Nathan Thompson,Customer Experience,TRUE,Paris,,,,,FALSE,Senior Business Operations Manager,Lauren Black
+Alexander Brown,Revenue Operations Team,TRUE,Paris,,,,,FALSE,Kano Contractor,Matthew Foster
+Jennifer Davis,Revenue Operations Team,TRUE,Paris,,,,,FALSE,Kano Contractor,Matthew Foster
+Jennifer Cooper,Revenue Operations Team,TRUE,Paris,,,,,FALSE,Sales Enablement Contractor,Matthew Foster
+Melissa Liu,Revenue Operations Team,TRUE,Paris,,,,,FALSE,SDR Team Manager,Matthew Foster
+Madison Green,Revenue Operations Team,TRUE,Paris,,,,,FALSE,Kano Contractor,Matthew Foster
+Samuel Brown,Revenue Operations Team,TRUE,Paris,,,,,FALSE,Kano Contractor,Matthew Foster
+Madison Brown,Revenue - France,TRUE,Paris,,,,,FALSE,Sales Team Manager,Nicholas Foster
+Samuel Cooper,SDR Team - FR,TRUE,Paris,,,,,FALSE,Team Leader SDR,Nicholas Foster
+Lauren Parker,Sales Mid Team - FR,TRUE,Paris,,,,,FALSE,Team Lead Sales Mid Market,Nicholas Foster
+Lauren Harris,Sales Seed Team - FR,TRUE,Paris,,,,,FALSE,Sales Team Manager,Nicholas Foster
+Alexander Parker,SDR Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Development Representative,Samuel Cooper
+Ashley King,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Development Representative,Samuel Cooper
+Catherine Nelson,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Development Representative,Samuel Cooper
+Cameron Miller,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Development Representative,Samuel Cooper
+Hannah Johnson,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Development Representative Intern,Samuel Cooper
+Lauren Green,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Development Representative,Samuel Cooper
+Matthew Davis,SDR Team - FR,TRUE,Paris,,,,,FALSE,Senior Business Development Representative,Samuel Cooper
+Nathan Miller,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Development Representative Intern,Samuel Cooper
+Patrick Davis,SDR Team - FR,TRUE,Paris,,,,,FALSE,Sales Developement Representative,Samuel Cooper
+Cameron Black,Sales Mid Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Account Executive,Lauren Parker
+Isabella Adams,Sales Mid Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Account Executive,Lauren Parker
+Madison Green,Sales Mid Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive,Lauren Parker
+Madison Lewis,Sales Mid Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive (Mid Market),Lauren Parker
+Gabriel Lewis,Sales Seed Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive (Seeds),Lauren Harris
+Cameron Miller,Sales Growth Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Account Executive,Nicholas Foster
+Cameron Parker,Sales Growth Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive,Nicholas Foster
+Madison Green,Sales Growth Team - FR,TRUE,Paris,,,,,FALSE,Senior Sales Account Executive,Nicholas Foster
+Samuel Vasquez,Sales Growth Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive,Nicholas Foster
+Timothy Foster,Sales Growth Team - FR,TRUE,Paris,,,,,FALSE,Sales Account Executive,Nicholas Foster
+Ashley Cooper,Sales Teams France,TRUE,Paris,,,,,FALSE,Sales Account Executive (Growth),Nicholas Foster
+Jessica Lee,B2B Marketing,TRUE,Paris,,,,,FALSE,Customer Marketing Manager,Emily Adams
+Lauren Harris,B2B Marketing,TRUE,Paris,,,,,FALSE,Lifecycle Marketing Manager,Emily Adams
+Lauren Thompson,B2B Marketing,TRUE,Paris,,,,,FALSE,Inbound Marketing Manager,Emily Adams
+Charlotte Parker,B2B Marketing,TRUE,Paris,,,,,FALSE,Growth Marketing Contractor,Emily Adams
+Matthew Cooper,Editorial & Marketing,TRUE,Paris,,,,,FALSE,Web Writer & Integrator Contractor,Emma Wilson
+Brandon Thomas,Engineering,TRUE,Paris,,,,,FALSE,Senior Full-Stack Developer,Victoria Green
+Lauren Davis,Engineering,TRUE,Paris,,,,,FALSE,Back-End Developer,Victoria Green
+Oliver Cooper,Engineering,TRUE,Paris,,,,,FALSE,Senior Front-end Developer,Victoria Green
+Samuel Parker,Engineering,TRUE,Paris,,,,,FALSE,Front-end Developer,Victoria Green
+Benjamin Thomas,Engineering,TRUE,Paris,,,,,FALSE,Backend Developer,Michael Roberts
+Caroline Nelson,Engineering,TRUE,Paris,,,,,FALSE,Front-end Senior Developer Contractor,Michael Roberts
+Jessica Hughes,Engineering,TRUE,Paris,,,,,FALSE,Front-end Developer,Michael Roberts
+Rachel Thompson,Engineering,TRUE,Paris,,,,,FALSE,Front-end Developer,Michael Roberts
+James King,Engineering,TRUE,Paris,,,,,FALSE,Back-end Developer,Philip Harris
+Richard Davis,Engineering,TRUE,Paris,,,,,FALSE,Senior Front-end Developer,Philip Harris
+Thomas Miller,Engineering,TRUE,Paris,,,,,FALSE,Senior Front-End Developper,Philip Harris
+Zachary Foster,Engineering,TRUE,Paris,,,,,FALSE,Associate Back-end Developer,Philip Harris
+Samuel Davis,Engineering,TRUE,Paris,,,,,FALSE,Senior Front-end Developer,Philip Harris

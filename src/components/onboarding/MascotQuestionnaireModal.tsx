@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { GameContext } from '../../context/GameContext';
+import { X } from 'lucide-react';
 
 // Interfaces et types
 interface UserForm {
@@ -7,6 +8,7 @@ interface UserForm {
   team: string;
   manager: string;
   mascot: string;
+  workMode: 'presentiel' | 'teletravail';
   hobbies: string[];
   location: string;
   days: string[];
@@ -28,6 +30,7 @@ interface CompleteUser {
   manager: string;
   hobbies: string[];
   mascot: string;
+  workMode: 'presentiel' | 'teletravail';
 }
 
 // Constantes
@@ -49,37 +52,30 @@ const notifications = [
   'Résumé hebdo de ma présence',
   'Je préfère éviter les notifications',
 ];
+
+const collaborators = [
+  { id: '1', name: 'Alice', team: 'Engineering' },
+  { id: '2', name: 'Bob', team: 'Marketing' },
+  { id: '3', name: 'Charlie', team: 'Design' },
+  { id: '4', name: 'David', team: 'Sales' },
+  { id: '5', name: 'Eve', team: 'HR' },
+];
+
 const teams = [
   'Editorial & Marketing',
   'Operations',
-  'Brand & Creative',
-  'Czech Republic',
-  'Growth Marketing',
-  'Marketing UK',
-  'Media Expansion US',
-  'Strategy Operations',
-  'Product & Data',
-  'Customer Success',
-  'Finance',
-  'People',
-  'Revenue - France',
-  'UK - Team',
-  'dotConferences',
-  'B2C & Monitezation Marketing',
-  'Business - CZ',
-  'Content - CZ',
-  'Marketing - CZ',
-  'People & Office Management - CZ'
+  'Engineering',
+  'Design',
+  'Sales',
+  'HR',
 ];
 
 const managers = [
-  { id: 'emma', name: 'Emma Wilson', team: 'Editorial & Marketing' },
-  { id: 'robert', name: 'Robert Chen', team: 'Operations' },
-  { id: 'daniel', name: 'Daniel Martinez', team: 'Brand & Creative' },
-  { id: 'david', name: 'David Kim', team: 'Czech Republic' },
-  { id: 'benjamin', name: 'Benjamin Scott', team: 'Product & Data' },
-  { id: 'alexander', name: 'Alexander Brown', team: 'Strategy Operations' },
-  { id: 'nobody', name: 'Aucun', team: '' }
+  'Alice',
+  'Bob',
+  'Charlie',
+  'David',
+  'Eve',
 ];
 
 const hobbies = [
@@ -94,7 +90,7 @@ const hobbies = [
   'Autre'
 ];
 
-const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
+const MascotQuestionnaireModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) => {
   const { setCurrentUser, setOnlineUsers } = useContext(GameContext);
   const [step, setStep] = useState(1);
   const [form, setForm] = useState<UserForm>({
@@ -102,6 +98,7 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
     team: '',
     manager: '',
     mascot: '',
+    workMode: 'presentiel',
     hobbies: [] as string[],
     location: '',
     days: [] as string[],
@@ -109,17 +106,19 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
     notifications: [] as string[]
   });
 
-  // Handlers
   const handleChange = (field: keyof UserForm, value: string) => {
-    setForm(f => ({ ...f, [field]: value }));
+    setForm(prev => ({
+      ...prev,
+      [field]: value
+    }));
   };
 
-  const handleCheckbox = (field: keyof UserForm, value: string) => {
-    setForm(f => ({
-      ...f,
-      [field]: (f[field] as string[]).includes(value) 
-        ? (f[field] as string[]).filter((v: string) => v !== value) 
-        : [...(f[field] as string[]), value]
+  const handleCheckbox = (field: 'hobbies' | 'days' | 'notifications', value: string) => {
+    setForm(prev => ({
+      ...prev,
+      [field]: prev[field].includes(value) 
+        ? prev[field].filter(f => f !== value)
+        : [...prev[field], value]
     }));
   };
 
@@ -133,7 +132,8 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
       !form.location ||
       form.days.length === 0 ||
       !form.collaborators ||
-      form.notifications.length === 0
+      form.notifications.length === 0 ||
+      !form.workMode
     ) {
       return;
     }
@@ -144,6 +144,7 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
       avatar: mascots.find(m => m.id === form.mascot)?.img ?? '',
       status: 'online',
       position: { x: 400, y: 300 },
+      workMode: form.workMode,
       location: form.location,
       days: form.days,
       collaborators: form.collaborators,
@@ -159,122 +160,222 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
     onClose();
   };
 
-  const handleNext = () => setStep(s => s + 1);
-  const handlePrev = () => setStep(s => s - 1);
+  const handleNext = () => {
+    if (step === 1 && !form.name) return;
+    if (step === 2 && !form.team) return;
+    if (step === 3 && !form.manager) return;
+    if (step === 4 && form.hobbies.length === 0) return;
+    if (step === 5 && !form.mascot) return;
+    if (step === 6 && !form.location) return;
+    if (step === 7 && form.days.length === 0) return;
+    if (step === 8 && !form.collaborators) return;
+    if (step === 9 && form.notifications.length === 0) return;
+    if (step === 10 && !form.workMode) return;
+    
+    setStep(s => s + 1);
+  };
+
+  const handlePrev = () => {
+    if (step > 1) {
+      setStep(s => s - 1);
+    }
+  };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-xl shadow-xl p-8 w-full max-w-lg relative">
-        <button className="absolute top-4 right-4 text-gray-400 hover:text-gray-700" onClick={onClose}>✕</button>
-        <h2 className="text-2xl font-bold mb-6 text-center">Créer ma mascotte</h2>
-        {/* Étapes du questionnaire */}
-        {step === 1 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Nom de l'employé :</div>
-            <input type="text" className="w-full border border-gray-300 rounded-lg px-3 py-2 mt-1" placeholder="Nom de l'employé" value={form.name} onChange={e => handleChange('name', e.target.value)} />
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
+      <div className="bg-white rounded-lg p-6 w-[400px] max-h-[90vh] overflow-y-auto">
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="text-2xl font-bold">Questionnaire d'onboarding</h2>
+          <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
+            <X className="w-6 h-6" />
+          </button>
+        </div>
+        
+        {/* Progression */}
+        <div className="mb-8">
+          <div className="flex justify-between text-sm text-gray-500">
+            <span>Étape {step}</span>
+            <span>sur 10</span>
           </div>
-        )}
-        {step === 2 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">À quelle équipe/secteur appartiens-tu ?</div>
-            <select className="w-full border rounded px-2 py-2" value={form.team} onChange={e => handleChange('team', e.target.value)}>
-              <option value="">Sélectionner...</option>
-              {teams.map(team => <option key={team} value={team}>{team}</option>)}
-            </select>
+          <div className="w-full bg-gray-200 rounded-full h-2.5">
+            <div 
+              className="bg-green-500 h-2.5 rounded-full"
+              style={{ width: `${(step / 10) * 100}%` }}
+            ></div>
           </div>
-        )}
-        {step === 3 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Qui est ton manager ?</div>
-            <select className="w-full border rounded px-2 py-2" value={form.manager} onChange={e => handleChange('manager', e.target.value)}>
-              <option value="">Sélectionner...</option>
-              {managers.map(manager => (
-                <option key={manager.id} value={manager.id}>
-                  {manager.name} ({manager.team})
-                </option>
-              ))}
-            </select>
-          </div>
-        )}
-        {step === 4 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Quels sont tes passe-temps et activités en dehors du travail ?</div>
-            <div className="flex flex-wrap gap-3">
-              {hobbies.map(hobby => (
-                <label key={hobby} className="flex items-center gap-2">
-                  <input type="checkbox" checked={form.hobbies.includes(hobby)} onChange={() => handleCheckbox('hobbies', hobby)} />
-                  {hobby}
+        </div>
+
+        {/* Contenu des étapes */}
+        <div className="space-y-6">
+          {step === 1 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Quel est ton nom ?</div>
+              <input
+                type="text"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2"
+                placeholder="Entrez votre nom"
+                value={form.name}
+                onChange={e => handleChange('name', e.target.value)}
+              />
+            </div>
+          )}
+          {step === 2 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Dans quelle équipe travailles-tu ?</div>
+              <select
+                className="w-full border border-gray-300 rounded-lg px-3 py-2"
+                value={form.team}
+                onChange={e => handleChange('team', e.target.value)}
+              >
+                <option value="">Sélectionner...</option>
+                {teams.map(team => (
+                  <option key={team} value={team}>{team}</option>
+                ))}
+              </select>
+            </div>
+          )}
+          {step === 3 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Qui est ton manager ?</div>
+              <select
+                className="w-full border border-gray-300 rounded-lg px-3 py-2"
+                value={form.manager}
+                onChange={e => handleChange('manager', e.target.value)}
+              >
+                <option value="">Sélectionner...</option>
+                {managers.map(manager => (
+                  <option key={manager} value={manager}>{manager}</option>
+                ))}
+              </select>
+            </div>
+          )}
+          {step === 4 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Quels sont tes hobbies ?</div>
+              <div className="flex flex-wrap gap-2">
+                {hobbies.map(hobby => (
+                  <label key={hobby} className="flex items-center gap-2">
+                    <input
+                      type="checkbox"
+                      checked={form.hobbies.includes(hobby)}
+                      onChange={() => handleCheckbox('hobbies', hobby)}
+                    />
+                    {hobby}
+                  </label>
+                ))}
+              </div>
+            </div>
+          )}
+          {step === 5 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Choisis ton avatar !</div>
+              <div className="grid grid-cols-3 gap-4">
+                {mascots.map(mascot => (
+                  <label key={mascot.id} className="flex flex-col items-center space-y-2">
+                    <img
+                      src={mascot.img}
+                      alt={mascot.label}
+                      className={`w-20 h-20 rounded-full ${form.mascot === mascot.id ? 'ring-2 ring-green-500' : ''}`}
+                      onClick={() => handleChange('mascot', mascot.id)}
+                    />
+                    <span className="text-sm">{mascot.label}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          )}
+          {step === 6 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Où travailles-tu ?</div>
+              <select
+                className="w-full border border-gray-300 rounded-lg px-3 py-2"
+                value={form.location}
+                onChange={e => handleChange('location', e.target.value)}
+              >
+                <option value="">Sélectionner...</option>
+                {locations.map(location => (
+                  <option key={location} value={location}>{location}</option>
+                ))}
+              </select>
+            </div>
+          )}
+          {step === 7 && (
+            <div>
+              <div className="mb-4 text-lg font-semibold">Quels jours es-tu le plus susceptible de venir au bureau ?</div>
+              <div className="grid grid-cols-3 gap-4">
+                {days.map(day => (
+                  <label key={day} className="flex items-center space-x-2">
+                    <input
+                      type="checkbox"
+                      checked={form.days.includes(day)}
+                      onChange={() => handleCheckbox('days', day)}
+                      className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                    />
+                    <span>{day}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          )}
+          {step === 8 && (
+            <div className="mb-6">
+              <div className="mb-4 text-lg font-semibold">Qui sont tes collaborateurs ?</div>
+              <select
+                className="w-full border border-gray-300 rounded-lg px-3 py-2"
+                value={form.collaborators}
+                onChange={e => handleChange('collaborators', e.target.value)}
+              >
+                <option value="">Sélectionner...</option>
+                {collaborators.map(collaborator => (
+                  <option key={collaborator.id} value={collaborator.name}>{collaborator.name}</option>
+                ))}
+              </select>
+            </div>
+          )}
+          {step === 9 && (
+            <div className="mb-6">
+              <div className="mb-4 text-lg font-semibold">Quel type de notifications souhaites-tu recevoir ?</div>
+              <div className="flex flex-col gap-2">
+                {notifications.map(notification => (
+                  <label key={notification} className="flex items-center gap-2">
+                    <input type="checkbox" checked={form.notifications.includes(notification)} onChange={() => handleCheckbox('notifications', notification)} />
+                    <span>{notification}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          )}
+          {step === 10 && (
+            <div className="mb-6">
+              <div className="mb-4 text-lg font-semibold">Quel est ton mode de travail ?</div>
+              <div className="space-y-2">
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="radio"
+                    name="workMode"
+                    value="presentiel"
+                    checked={form.workMode === 'presentiel'}
+                    onChange={() => handleChange('workMode', 'presentiel')}
+                    className="rounded border-gray-300 text-green-600 focus:ring-green-500"
+                  />
+                  <span>Présentiel</span>
                 </label>
-              ))}
-            </div>
-          </div>
-        )}
-        {step === 5 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Choisis ta mascotte préférée :</div>
-            <div className="flex flex-wrap gap-4 justify-center mb-4">
-              {mascots.map(m => (
-                <button
-                  key={m.id}
-                  className={`rounded-xl border-2 p-2 transition ${form.mascot === m.id ? 'border-green-500 bg-green-50' : 'border-gray-200 hover:border-green-300'}`}
-                  onClick={() => handleChange('mascot', m.id)}
-                >
-                  <img src={m.img} alt={m.label} className="w-16 h-16 mx-auto" />
-                  <div className="text-xs mt-1 font-medium text-gray-700">{m.label}</div>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-        {step === 6 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Où travailles-tu principalement ?</div>
-            <div className="flex flex-col gap-2">
-              {locations.map(loc => (
-                <label key={loc} className="flex items-center gap-2">
-                  <input type="radio" name="location" value={loc} checked={form.location === loc} onChange={() => handleChange('location', loc)} />
-                  {loc}
+                <label className="flex items-center space-x-2">
+                  <input
+                    type="radio"
+                    name="workMode"
+                    value="teletravail"
+                    checked={form.workMode === 'teletravail'}
+                    onChange={() => handleChange('workMode', 'teletravail')}
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  <span>Teletravail</span>
                 </label>
-              ))}
-              {form.location === 'Autre' && (
-                <input className="mt-2 border rounded px-2 py-1" placeholder="Précise..." value={form.location} onChange={e => handleChange('location', e.target.value)} />
-              )}
+              </div>
             </div>
-          </div>
-        )}
-        {step === 7 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Quels jours es-tu le plus susceptible de venir au bureau ?</div>
-            <div className="flex flex-wrap gap-3">
-              {days.map(day => (
-                <label key={day} className="flex items-center gap-2">
-                  <input type="checkbox" checked={form.days.includes(day)} onChange={() => handleCheckbox('days', day)} />
-                  {day}
-                </label>
-              ))}
-            </div>
-          </div>
-        )}
-        {step === 8 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Avec qui collabores-tu le plus souvent ?</div>
-            <input className="w-full border rounded px-2 py-2" placeholder="Noms ou équipes (séparés par des virgules)" value={form.collaborators} onChange={e => handleChange('collaborators', e.target.value)} />
-            <div className="text-xs text-gray-500 mt-2">(Sélectionner jusqu'à 5 collègues ou équipes)</div>
-          </div>
-        )}
-        {step === 9 && (
-          <div className="mb-6">
-            <div className="mb-4 text-lg font-semibold">Quel type de notifications souhaites-tu recevoir ?</div>
-            <div className="flex flex-col gap-2">
-              {notifications.map(notif => (
-                <label key={notif} className="flex items-center gap-2">
-                  <input type="checkbox" checked={form.notifications.includes(notif)} onChange={() => handleCheckbox('notifications', notif)} />
-                  {notif}
-                </label>
-              ))}
-            </div>
-          </div>
-        )}
+          )}
+        </div>
+
         {/* Navigation */}
         <div className="flex justify-between mt-8">
           {step > 1 ? (
@@ -284,7 +385,7 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
           ) : (
             <span></span>
           )}
-          {step < 9 ? (
+          {step < 10 ? (
             <button
               className="px-4 py-2 rounded bg-green-600 text-white font-bold hover:bg-green-700"
               onClick={handleNext}
@@ -297,16 +398,17 @@ const MascotQuestionnaireModal = ({ onClose }: { onClose: () => void }) => {
                 (step === 6 && !form.location) ||
                 (step === 7 && form.days.length === 0) ||
                 (step === 8 && !form.collaborators) ||
-                (step === 9 && form.notifications.length === 0)
+                (step === 9 && form.notifications.length === 0) ||
+                (step === 10 && form.workMode !== 'presentiel' && form.workMode !== 'teletravail')
               }
             >
-              {step === 9 ? 'Valider' : 'Suivant'}
+              {step === 10 ? 'Valider' : 'Suivant'}
             </button>
           ) : (
             <button
               className="px-4 py-2 rounded bg-green-600 text-white font-bold hover:bg-green-700"
               onClick={handleSubmit}
-              disabled={form.notifications.length === 0}
+              disabled={form.workMode !== 'presentiel' && form.workMode !== 'teletravail'}
             >
               Valider
             </button>

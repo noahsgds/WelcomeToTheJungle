@@ -6,6 +6,8 @@ import { GameProvider, GameContext } from '../context/GameContext';
 import SidebarDashboard from './SidebarDashboard';
 import MainPanel, { MainPanelTab } from './MainPanel';
 import MascotQuestionnaireModal from './onboarding/MascotQuestionnaireModal';
+import DustChatbot from './chatbot/DustChatbot';
+import { MessageCircle } from 'lucide-react';
 
 const JungleGatherGameInner = () => {
   const { currentUser } = useContext(GameContext);
@@ -21,7 +23,7 @@ const JungleGatherGameInner = () => {
         >
           Créer mon personnage
         </button>
-        {showModal && <MascotQuestionnaireModal onClose={() => setShowModal(false)} />}
+        {showModal && <MascotQuestionnaireModal isOpen={showModal} onClose={() => setShowModal(false)} />}
       </div>
     );
   }
@@ -34,7 +36,10 @@ const JungleGatherGameInner = () => {
       >
         Créer une nouvelle mascotte
       </button>
-      {showModal && <MascotQuestionnaireModal onClose={() => setShowModal(false)} />}
+      <div className="fixed top-4 right-4 z-50 flex gap-4">
+        <DustChatbot />
+      </div>
+      {showModal && <MascotQuestionnaireModal isOpen={showModal} onClose={() => setShowModal(false)} />}
       <SidebarDashboard activeTab={activeTab} onTabChange={setActiveTab} />
       {activeTab === 'calendar' ? (
         <MainPanel activeTab={activeTab} onCloseCalendar={() => setActiveTab('dashboard')} />

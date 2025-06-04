@@ -9,9 +9,10 @@ interface User {
   id: string;
   name: string;
   avatar: string;
+  mascot: string;
   status: 'online' | 'busy' | 'away';
   position: Position;
-  workMode?: 'presentiel' | 'teletravail';
+  workMode: 'presentiel' | 'teletravail';
   presenceRate?: number;
   team?: string;
   location?: string;
